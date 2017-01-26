@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<keyMapSet>
+<targetExe>*.exe</targetExe>
+<targetExe>*.exe</targetExe>
+<keyMap default="1" name="minecraftMain">
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row>
+<key height="1" keyTop="//undo" keyTopImage="minecraftMain\unDo.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//undo</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//redo" keyTopImage="minecraftMain\reDo.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//redo</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="re exec" keyTopImage="minecraftMain\reExec.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">{up}</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//sel" keyTopImage="minecraftMain\sel.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//sel</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//sel cuboid" keyTopImage="minecraftMain\selCuboid.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//sel cuboid</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//sel poly" keyTopImage="minecraftMain\selPoly.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//sel poly</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+</row>
+<row>
+<key height="1" keyTop="//cut" keyTopImage="minecraftMain\cut.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//cut</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//copy" keyTopImage="minecraftMain\copy.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//copy</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//paste" keyTopImage="minecraftMain\paste.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//paste</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//paste -a" keyTopImage="minecraftMain\paste-a.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//paste -a</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key afterMap="minecraftTenKey" height="1" keyTop="//expand" keyTopImage="minecraftMain\expand.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//expand </inputData></key>
+<key afterMap="minecraftTenKey" height="1" keyTop="//contract" keyTopImage="minecraftMain\contract.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//contract </inputData></key>
+<key afterMap="minecraftTenKey" height="1" keyTop="//shift" keyTopImage="minecraftMain\shift.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//shift </inputData></key>
+</row>
+<row>
+<key afterMap="minecraftBlockPicker" height="1" keyTop="//set" keyTopImage="minecraftMain\set.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//set </inputData></key>
+<key afterMap="minecraftDualBlockPickerPage1" height="1" keyTop="//replace" keyTopImage="minecraftMain\replace.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//replace </inputData></key>
+<key afterMap="minecraftTenKey" height="1" keyTop="//move" keyTopImage="minecraftMain\move.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//move </inputData></key>
+<key afterMap="minecraftTenKey" height="1" keyTop="//stack" keyTopImage="minecraftMain\stack.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//stack </inputData></key>
+<key height="1" keyTop="//pos1" keyTopImage="minecraftMain\pos1.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//pos1</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//pos2" keyTopImage="minecraftMain\pos2.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//pos2</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+<key height="1" keyTop="//chunk" keyTopImage="minecraftMain\chunkSelect.svg" width="1"><inputData afterWaite="0" index="0">t</inputData><inputData afterWaite="0" index="1">//chunk</inputData><inputData afterWaite="0" index="2">{ENTER}</inputData></key>
+
+</row>
+</keyMap>
+<keyMap default="0" name="minecraftTenKey">
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row>
+<key height="1" keyTop="7" keyTopImage="minecraftTenKey\7.svg" width="1"><inputData afterWaite="0" index="0">7</inputData></key>
+<key height="1" keyTop="8" keyTopImage="minecraftTenKey\8.svg" width="1"><inputData afterWaite="0" index="0">8</inputData></key>
+<key height="1" keyTop="9" keyTopImage="minecraftTenKey\9.svg" width="1"><inputData afterWaite="0" index="0">9</inputData></key>
+<key height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMain" height="1" keyTop="N" keyTopImage="minecraftTenKey\north.svg" width="1"><inputData afterWaite="0" index="0"> N</inputData><inputData afterWaite="0" index="1">{ENTER}</inputData></key>
+<key height="1" keyTop="xxxxx" width="1"></key>
+</row>
+<row>
+<key height="1" keyTop="4" keyTopImage="minecraftTenKey\4.svg" width="1"><inputData afterWaite="0" index="0">4</inputData></key>
+<key height="1" keyTop="5" keyTopImage="minecraftTenKey\5.svg" width="1"><inputData afterWaite="0" index="0">5</inputData></key>
+<key height="1" keyTop="6" keyTopImage="minecraftTenKey\6.svg" width="1"><inputData afterWaite="0" index="0">6</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="W" keyTopImage="minecraftTenKey\west.svg" width="1"><inputData afterWaite="0" index="0"> W</inputData><inputData afterWaite="0" index="1">{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="sight line" keyTopImage="minecraftTenKey\sightLine.svg" width="1"><inputData afterWaite="0" index="0">{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="E" keyTopImage="minecraftTenKey\east.svg" width="1"><inputData afterWaite="0" index="0"> E</inputData><inputData afterWaite="0" index="1">{ENTER}</inputData></key>
+</row>
+<row>
+<key height="1" keyTop="1" keyTopImage="minecraftTenKey\1.svg" width="1"><inputData afterWaite="0" index="0">1</inputData></key>
+<key height="1" keyTop="2" keyTopImage="minecraftTenKey\2.svg" width="1"><inputData afterWaite="0" index="0">2</inputData></key>
+<key height="1" keyTop="3" keyTopImage="minecraftTenKey\3.svg" width="1"><inputData afterWaite="0" index="0">3</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="up" keyTopImage="minecraftTenKey\up.svg" width="1"><inputData afterWaite="0" index="0"> U</inputData><inputData afterWaite="0" index="1">{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="S" keyTopImage="minecraftTenKey\south.svg" width="1"><inputData afterWaite="0" index="0"> S</inputData><inputData afterWaite="0" index="1">{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="down" keyTopImage="minecraftTenKey\down.svg" width="1"><inputData afterWaite="0" index="0"> D</inputData><inputData afterWaite="0" index="1">{ENTER}</inputData></key>
+</row>
+<row>
+<key height="1" keyTop="0" keyTopImage="minecraftTenKey\0.svg" width="1"><inputData afterWaite="0" index="0">0</inputData></key>
+<key height="1" keyTop="00" keyTopImage="minecraftTenKey\00.svg" width="1"><inputData afterWaite="0" index="0">00</inputData></key>
+<key height="1" keyTop="000" keyTopImage="minecraftTenKey\000.svg" width="1"><inputData afterWaite="0" index="0">000</inputData></key>
+</row>
+</keyMap>
+<keyMap default="0" name="minecraftBlockPicker">
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Air" keyTopImage="minecraftBlockPicker\0.svg" width="1"><inputData afterWaite="0" index="0">0</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stone" keyTopImage="minecraftBlockPicker\1.svg" width="1"><inputData afterWaite="0" index="0">1</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Grass" keyTopImage="minecraftBlockPicker\2.svg" width="1"><inputData afterWaite="0" index="0">2</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Dirt" keyTopImage="minecraftBlockPicker\3.svg" width="1"><inputData afterWaite="0" index="0">3</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cobblestone" keyTopImage="minecraftBlockPicker\4.svg" width="1"><inputData afterWaite="0" index="0">4</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wood Plank" keyTopImage="minecraftBlockPicker\5.svg" width="1"><inputData afterWaite="0" index="0">5</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Sapling" keyTopImage="minecraftBlockPicker\6.svg" width="1"><inputData afterWaite="0" index="0">6</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Bedrock" keyTopImage="minecraftBlockPicker\7.svg" width="1"><inputData afterWaite="0" index="0">7</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Flowing Water" keyTopImage="minecraftBlockPicker\8.svg" width="1"><inputData afterWaite="0" index="0">8</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Still Water" keyTopImage="minecraftBlockPicker\9.svg" width="1"><inputData afterWaite="0" index="0">9</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Flowing Lava" keyTopImage="minecraftBlockPicker\10.svg" width="1"><inputData afterWaite="0" index="0">10</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Still Lava" keyTopImage="minecraftBlockPicker\11.svg" width="1"><inputData afterWaite="0" index="0">11</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Sand" keyTopImage="minecraftBlockPicker\12.svg" width="1"><inputData afterWaite="0" index="0">12</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Gravel" keyTopImage="minecraftBlockPicker\13.svg" width="1"><inputData afterWaite="0" index="0">13</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Gold Ore" keyTopImage="minecraftBlockPicker\14.svg" width="1"><inputData afterWaite="0" index="0">14</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Iron Ore" keyTopImage="minecraftBlockPicker\15.svg" width="1"><inputData afterWaite="0" index="0">15</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Coal Ore" keyTopImage="minecraftBlockPicker\16.svg" width="1"><inputData afterWaite="0" index="0">16</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wood" keyTopImage="minecraftBlockPicker\17.svg" width="1"><inputData afterWaite="0" index="0">17</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Leaves" keyTopImage="minecraftBlockPicker\18.svg" width="1"><inputData afterWaite="0" index="0">18</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Glass" keyTopImage="minecraftBlockPicker\20.svg" width="1"><inputData afterWaite="0" index="0">20</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Lapis Lazuli Ore" keyTopImage="minecraftBlockPicker\21.svg" width="1"><inputData afterWaite="0" index="0">21</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Lapis Lazuli Block" keyTopImage="minecraftBlockPicker\22.svg" width="1"><inputData afterWaite="0" index="0">22</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Dispenser" keyTopImage="minecraftBlockPicker\23.svg" width="1"><inputData afterWaite="0" index="0">23</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Sandstone" keyTopImage="minecraftBlockPicker\24.svg" width="1"><inputData afterWaite="0" index="0">24</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Note Block" keyTopImage="minecraftBlockPicker\25.svg" width="1"><inputData afterWaite="0" index="0">25</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Bed" keyTopImage="minecraftBlockPicker\26.svg" width="1"><inputData afterWaite="0" index="0">26</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Powered Rail" keyTopImage="minecraftBlockPicker\27.svg" width="1"><inputData afterWaite="0" index="0">27</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Detector Rail" keyTopImage="minecraftBlockPicker\28.svg" width="1"><inputData afterWaite="0" index="0">28</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Sticky Piston" keyTopImage="minecraftBlockPicker\29.svg" width="1"><inputData afterWaite="0" index="0">29</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cobweb" keyTopImage="minecraftBlockPicker\30.svg" width="1"><inputData afterWaite="0" index="0">30</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Tallgrass" keyTopImage="minecraftBlockPicker\31.svg" width="1"><inputData afterWaite="0" index="0">31</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Dead Bush" keyTopImage="minecraftBlockPicker\32.svg" width="1"><inputData afterWaite="0" index="0">32</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Piston" keyTopImage="minecraftBlockPicker\33.svg" width="1"><inputData afterWaite="0" index="0">33</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Piston Head" keyTopImage="minecraftBlockPicker\34.svg" width="1"><inputData afterWaite="0" index="0">34</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wool" keyTopImage="minecraftBlockPicker\35.svg" width="1"><inputData afterWaite="0" index="0">35</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Dandelion" keyTopImage="minecraftBlockPicker\37.svg" width="1"><inputData afterWaite="0" index="0">37</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Flower" keyTopImage="minecraftBlockPicker\38.svg" width="1"><inputData afterWaite="0" index="0">38</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Brown Mushroom" keyTopImage="minecraftBlockPicker\39.svg" width="1"><inputData afterWaite="0" index="0">39</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Red Mushroom" keyTopImage="minecraftBlockPicker\40.svg" width="1"><inputData afterWaite="0" index="0">40</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Gold Block" keyTopImage="minecraftBlockPicker\41.svg" width="1"><inputData afterWaite="0" index="0">41</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Iron Block" keyTopImage="minecraftBlockPicker\42.svg" width="1"><inputData afterWaite="0" index="0">42</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Double Slab" keyTopImage="minecraftBlockPicker\43.svg" width="1"><inputData afterWaite="0" index="0">43</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Slab" keyTopImage="minecraftBlockPicker\44.svg" width="1"><inputData afterWaite="0" index="0">44</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Bricks" keyTopImage="minecraftBlockPicker\45.svg" width="1"><inputData afterWaite="0" index="0">45</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="TNT" keyTopImage="minecraftBlockPicker\46.svg" width="1"><inputData afterWaite="0" index="0">46</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Bookshelf" keyTopImage="minecraftBlockPicker\47.svg" width="1"><inputData afterWaite="0" index="0">47</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Moss Stone" keyTopImage="minecraftBlockPicker\48.svg" width="1"><inputData afterWaite="0" index="0">48</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Obsidian" keyTopImage="minecraftBlockPicker\49.svg" width="1"><inputData afterWaite="0" index="0">49</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Torch" keyTopImage="minecraftBlockPicker\50.svg" width="1"><inputData afterWaite="0" index="0">50</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Fire" keyTopImage="minecraftBlockPicker\51.svg" width="1"><inputData afterWaite="0" index="0">51</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Monster Spawner" keyTopImage="minecraftBlockPicker\52.svg" width="1"><inputData afterWaite="0" index="0">52</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Oak Wood Stairs" keyTopImage="minecraftBlockPicker\53.svg" width="1"><inputData afterWaite="0" index="0">53</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Chest" keyTopImage="minecraftBlockPicker\54.svg" width="1"><inputData afterWaite="0" index="0">54</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Wire" keyTopImage="minecraftBlockPicker\55.svg" width="1"><inputData afterWaite="0" index="0">55</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Diamond Ore" keyTopImage="minecraftBlockPicker\56.svg" width="1"><inputData afterWaite="0" index="0">56</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Diamond Block" keyTopImage="minecraftBlockPicker\57.svg" width="1"><inputData afterWaite="0" index="0">57</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Crafting Table" keyTopImage="minecraftBlockPicker\58.svg" width="1"><inputData afterWaite="0" index="0">58</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wheat Crops" keyTopImage="minecraftBlockPicker\59.svg" width="1"><inputData afterWaite="0" index="0">59</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Farmland" keyTopImage="minecraftBlockPicker\60.svg" width="1"><inputData afterWaite="0" index="0">60</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Furnace" keyTopImage="minecraftBlockPicker\61.svg" width="1"><inputData afterWaite="0" index="0">61</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Burning Furnace" keyTopImage="minecraftBlockPicker\62.svg" width="1"><inputData afterWaite="0" index="0">62</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Standing Sign Block" keyTopImage="minecraftBlockPicker\63.svg" width="1"><inputData afterWaite="0" index="0">63</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Oak Door Block" keyTopImage="minecraftBlockPicker\64.svg" width="1"><inputData afterWaite="0" index="0">64</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Ladder" keyTopImage="minecraftBlockPicker\65.svg" width="1"><inputData afterWaite="0" index="0">65</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Rail" keyTopImage="minecraftBlockPicker\66.svg" width="1"><inputData afterWaite="0" index="0">66</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cobblestone Stairs" keyTopImage="minecraftBlockPicker\67.svg" width="1"><inputData afterWaite="0" index="0">67</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wall-mounted Sign Block" keyTopImage="minecraftBlockPicker\68.svg" width="1"><inputData afterWaite="0" index="0">68</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Lever" keyTopImage="minecraftBlockPicker\69.svg" width="1"><inputData afterWaite="0" index="0">69</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stone Pressure Plate" keyTopImage="minecraftBlockPicker\70.svg" width="1"><inputData afterWaite="0" index="0">70</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Iron Door Block" keyTopImage="minecraftBlockPicker\71.svg" width="1"><inputData afterWaite="0" index="0">71</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wooden Pressure Plate" keyTopImage="minecraftBlockPicker\72.svg" width="1"><inputData afterWaite="0" index="0">72</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Ore" keyTopImage="minecraftBlockPicker\73.svg" width="1"><inputData afterWaite="0" index="0">73</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Glowing Redstone Ore" keyTopImage="minecraftBlockPicker\74.svg" width="1"><inputData afterWaite="0" index="0">74</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Torch (off)" keyTopImage="minecraftBlockPicker\75.svg" width="1"><inputData afterWaite="0" index="0">75</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Torch (on)" keyTopImage="minecraftBlockPicker\76.svg" width="1"><inputData afterWaite="0" index="0">76</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stone Button" keyTopImage="minecraftBlockPicker\77.svg" width="1"><inputData afterWaite="0" index="0">77</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Snow" keyTopImage="minecraftBlockPicker\78.svg" width="1"><inputData afterWaite="0" index="0">78</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Ice" keyTopImage="minecraftBlockPicker\79.svg" width="1"><inputData afterWaite="0" index="0">79</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Snow Block" keyTopImage="minecraftBlockPicker\80.svg" width="1"><inputData afterWaite="0" index="0">80</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cactus" keyTopImage="minecraftBlockPicker\81.svg" width="1"><inputData afterWaite="0" index="0">81</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Clay" keyTopImage="minecraftBlockPicker\82.svg" width="1"><inputData afterWaite="0" index="0">82</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Sugar Canes" keyTopImage="minecraftBlockPicker\83.svg" width="1"><inputData afterWaite="0" index="0">83</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Jukebox" keyTopImage="minecraftBlockPicker\84.svg" width="1"><inputData afterWaite="0" index="0">84</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Oak Fence" keyTopImage="minecraftBlockPicker\85.svg" width="1"><inputData afterWaite="0" index="0">85</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Pumpkin" keyTopImage="minecraftBlockPicker\86.svg" width="1"><inputData afterWaite="0" index="0">86</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Netherrack" keyTopImage="minecraftBlockPicker\87.svg" width="1"><inputData afterWaite="0" index="0">87</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Soul Sand" keyTopImage="minecraftBlockPicker\88.svg" width="1"><inputData afterWaite="0" index="0">88</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Glowstone" keyTopImage="minecraftBlockPicker\89.svg" width="1"><inputData afterWaite="0" index="0">89</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Nether Portal" keyTopImage="minecraftBlockPicker\90.svg" width="1"><inputData afterWaite="0" index="0">90</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Jack o'Lantern" keyTopImage="minecraftBlockPicker\91.svg" width="1"><inputData afterWaite="0" index="0">91</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cake Block" keyTopImage="minecraftBlockPicker\92.svg" width="1"><inputData afterWaite="0" index="0">92</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Repeater Block (off)" keyTopImage="minecraftBlockPicker\93.svg" width="1"><inputData afterWaite="0" index="0">93</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Repeater Block (on)" keyTopImage="minecraftBlockPicker\94.svg" width="1"><inputData afterWaite="0" index="0">94</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stained Glass" keyTopImage="minecraftBlockPicker\95.svg" width="1"><inputData afterWaite="0" index="0">95</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wooden Trapdoor" keyTopImage="minecraftBlockPicker\96.svg" width="1"><inputData afterWaite="0" index="0">96</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stone Monster Egg" keyTopImage="minecraftBlockPicker\97.svg" width="1"><inputData afterWaite="0" index="0">97</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stone Bricks" keyTopImage="minecraftBlockPicker\98.svg" width="1"><inputData afterWaite="0" index="0">98</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Brown Mushroom Block" keyTopImage="minecraftBlockPicker\99.svg" width="1"><inputData afterWaite="0" index="0">99</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Red Mushroom Block" keyTopImage="minecraftBlockPicker\100.svg" width="1"><inputData afterWaite="0" index="0">100</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Iron Bars" keyTopImage="minecraftBlockPicker\101.svg" width="1"><inputData afterWaite="0" index="0">101</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Glass Pane" keyTopImage="minecraftBlockPicker\102.svg" width="1"><inputData afterWaite="0" index="0">102</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Melon Block" keyTopImage="minecraftBlockPicker\103.svg" width="1"><inputData afterWaite="0" index="0">103</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Pumpkin Stem" keyTopImage="minecraftBlockPicker\104.svg" width="1"><inputData afterWaite="0" index="0">104</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Melon Stem" keyTopImage="minecraftBlockPicker\105.svg" width="1"><inputData afterWaite="0" index="0">105</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Vines" keyTopImage="minecraftBlockPicker\106.svg" width="1"><inputData afterWaite="0" index="0">106</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Oak Fence Gate" keyTopImage="minecraftBlockPicker\107.svg" width="1"><inputData afterWaite="0" index="0">107</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Brick Stairs" keyTopImage="minecraftBlockPicker\108.svg" width="1"><inputData afterWaite="0" index="0">108</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stone Brick Stairs" keyTopImage="minecraftBlockPicker\109.svg" width="1"><inputData afterWaite="0" index="0">109</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Mycelium" keyTopImage="minecraftBlockPicker\110.svg" width="1"><inputData afterWaite="0" index="0">110</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Lily Pad" keyTopImage="minecraftBlockPicker\111.svg" width="1"><inputData afterWaite="0" index="0">111</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Nether Brick" keyTopImage="minecraftBlockPicker\112.svg" width="1"><inputData afterWaite="0" index="0">112</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Nether Brick Fence" keyTopImage="minecraftBlockPicker\113.svg" width="1"><inputData afterWaite="0" index="0">113</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Nether Brick Stairs" keyTopImage="minecraftBlockPicker\114.svg" width="1"><inputData afterWaite="0" index="0">114</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Nether Wart" keyTopImage="minecraftBlockPicker\115.svg" width="1"><inputData afterWaite="0" index="0">115</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Enchantment Table" keyTopImage="minecraftBlockPicker\116.svg" width="1"><inputData afterWaite="0" index="0">116</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Brewing Stand" keyTopImage="minecraftBlockPicker\117.svg" width="1"><inputData afterWaite="0" index="0">117</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cauldron" keyTopImage="minecraftBlockPicker\118.svg" width="1"><inputData afterWaite="0" index="0">118</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="End Portal" keyTopImage="minecraftBlockPicker\119.svg" width="1"><inputData afterWaite="0" index="0">119</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="End Portal Frame" keyTopImage="minecraftBlockPicker\120.svg" width="1"><inputData afterWaite="0" index="0">120</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="End Stone" keyTopImage="minecraftBlockPicker\121.svg" width="1"><inputData afterWaite="0" index="0">121</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Dragon Egg" keyTopImage="minecraftBlockPicker\122.svg" width="1"><inputData afterWaite="0" index="0">122</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Lamp (inactive)" keyTopImage="minecraftBlockPicker\123.svg" width="1"><inputData afterWaite="0" index="0">123</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Lamp (active)" keyTopImage="minecraftBlockPicker\124.svg" width="1"><inputData afterWaite="0" index="0">124</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Double Wood Slab" keyTopImage="minecraftBlockPicker\125.svg" width="1"><inputData afterWaite="0" index="0">125</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wood Slab" keyTopImage="minecraftBlockPicker\126.svg" width="1"><inputData afterWaite="0" index="0">126</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cocoa" keyTopImage="minecraftBlockPicker\127.svg" width="1"><inputData afterWaite="0" index="0">127</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Sandstone Stairs" keyTopImage="minecraftBlockPicker\128.svg" width="1"><inputData afterWaite="0" index="0">128</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Emerald Ore" keyTopImage="minecraftBlockPicker\129.svg" width="1"><inputData afterWaite="0" index="0">129</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Ender Chest" keyTopImage="minecraftBlockPicker\130.svg" width="1"><inputData afterWaite="0" index="0">130</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Tripwire Hook" keyTopImage="minecraftBlockPicker\131.svg" width="1"><inputData afterWaite="0" index="0">131</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Tripwire" keyTopImage="minecraftBlockPicker\132.svg" width="1"><inputData afterWaite="0" index="0">132</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Emerald Block" keyTopImage="minecraftBlockPicker\133.svg" width="1"><inputData afterWaite="0" index="0">133</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Spruce Wood Stairs" keyTopImage="minecraftBlockPicker\134.svg" width="1"><inputData afterWaite="0" index="0">134</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Birch Wood Stairs" keyTopImage="minecraftBlockPicker\135.svg" width="1"><inputData afterWaite="0" index="0">135</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Jungle Wood Stairs" keyTopImage="minecraftBlockPicker\136.svg" width="1"><inputData afterWaite="0" index="0">136</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Command Block" keyTopImage="minecraftBlockPicker\137.svg" width="1"><inputData afterWaite="0" index="0">137</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Beacon" keyTopImage="minecraftBlockPicker\138.svg" width="1"><inputData afterWaite="0" index="0">138</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Cobblestone Wall" keyTopImage="minecraftBlockPicker\139.svg" width="1"><inputData afterWaite="0" index="0">139</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Flower Pot" keyTopImage="minecraftBlockPicker\140.svg" width="1"><inputData afterWaite="0" index="0">140</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Carrots" keyTopImage="minecraftBlockPicker\141.svg" width="1"><inputData afterWaite="0" index="0">141</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Potatoes" keyTopImage="minecraftBlockPicker\142.svg" width="1"><inputData afterWaite="0" index="0">142</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wooden Button" keyTopImage="minecraftBlockPicker\143.svg" width="1"><inputData afterWaite="0" index="0">143</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Mob Head" keyTopImage="minecraftBlockPicker\144.svg" width="1"><inputData afterWaite="0" index="0">144</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Anvil" keyTopImage="minecraftBlockPicker\145.svg" width="1"><inputData afterWaite="0" index="0">145</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Trapped Chest" keyTopImage="minecraftBlockPicker\146.svg" width="1"><inputData afterWaite="0" index="0">146</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Weighted Pressure Plate (light)" keyTopImage="minecraftBlockPicker\147.svg" width="1"><inputData afterWaite="0" index="0">147</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Weighted Pressure Plate (heavy)" keyTopImage="minecraftBlockPicker\148.svg" width="1"><inputData afterWaite="0" index="0">148</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Comparator (inactive)" keyTopImage="minecraftBlockPicker\149.svg" width="1"><inputData afterWaite="0" index="0">149</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Comparator (active)" keyTopImage="minecraftBlockPicker\150.svg" width="1"><inputData afterWaite="0" index="0">150</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Daylight Sensor" keyTopImage="minecraftBlockPicker\151.svg" width="1"><inputData afterWaite="0" index="0">151</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Redstone Block" keyTopImage="minecraftBlockPicker\152.svg" width="1"><inputData afterWaite="0" index="0">152</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Nether Quartz Ore" keyTopImage="minecraftBlockPicker\153.svg" width="1"><inputData afterWaite="0" index="0">153</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Hopper" keyTopImage="minecraftBlockPicker\154.svg" width="1"><inputData afterWaite="0" index="0">154</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Quartz Block" keyTopImage="minecraftBlockPicker\155.svg" width="1"><inputData afterWaite="0" index="0">155</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Quartz Stairs" keyTopImage="minecraftBlockPicker\156.svg" width="1"><inputData afterWaite="0" index="0">156</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Activator Rail" keyTopImage="minecraftBlockPicker\157.svg" width="1"><inputData afterWaite="0" index="0">157</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Dropper" keyTopImage="minecraftBlockPicker\158.svg" width="1"><inputData afterWaite="0" index="0">158</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stained Clay" keyTopImage="minecraftBlockPicker\159.svg" width="1"><inputData afterWaite="0" index="0">159</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Stained Glass Pane" keyTopImage="minecraftBlockPicker\160.svg" width="1"><inputData afterWaite="0" index="0">160</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Leaves2" keyTopImage="minecraftBlockPicker\161.svg" width="1"><inputData afterWaite="0" index="0">161</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Wood2" keyTopImage="minecraftBlockPicker\162.svg" width="1"><inputData afterWaite="0" index="0">162</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Acacia Wood Stairs" keyTopImage="minecraftBlockPicker\163.svg" width="1"><inputData afterWaite="0" index="0">163</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Dark Oak Wood Stairs" keyTopImage="minecraftBlockPicker\164.svg" width="1"><inputData afterWaite="0" index="0">164</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Hay Bale" keyTopImage="minecraftBlockPicker\170.svg" width="1"><inputData afterWaite="0" index="0">170</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Carpet" keyTopImage="minecraftBlockPicker\171.svg" width="1"><inputData afterWaite="0" index="0">171</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Hardened Clay" keyTopImage="minecraftBlockPicker\172.svg" width="1"><inputData afterWaite="0" index="0">172</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Block of Coal" keyTopImage="minecraftBlockPicker\173.svg" width="1"><inputData afterWaite="0" index="0">173</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Packed Ice" keyTopImage="minecraftBlockPicker\174.svg" width="1"><inputData afterWaite="0" index="0">174</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="Double plant" keyTopImage="minecraftBlockPicker\175.svg" width="1"><inputData afterWaite="0" index="0">175</inputData></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftMetaPicker" height="1" keyTop="xxxxx" width="1"></key>
+</row>
+<row>
+</row>
+</keyMap>
+<keyMap default="0" name="minecraftMetaPicker">
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="0" keyTopImage="minecraftTenKey\0.svg" width="1"><inputData afterWaite="0" index="0">:0{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="1" keyTopImage="minecraftTenKey\1.svg" width="1"><inputData afterWaite="0" index="0">:1{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="2" keyTopImage="minecraftTenKey\2.svg" width="1"><inputData afterWaite="0" index="0">:2{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="3" keyTopImage="minecraftTenKey\3.svg" width="1"><inputData afterWaite="0" index="0">:3{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="4" keyTopImage="minecraftTenKey\4.svg" width="1"><inputData afterWaite="0" index="0">:4{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="5" keyTopImage="minecraftTenKey\5.svg" width="1"><inputData afterWaite="0" index="0">:5{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="6" keyTopImage="minecraftTenKey\6.svg" width="1"><inputData afterWaite="0" index="0">:6{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="7" keyTopImage="minecraftTenKey\7.svg" width="1"><inputData afterWaite="0" index="0">:7{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="8" keyTopImage="minecraftTenKey\8.svg" width="1"><inputData afterWaite="0" index="0">:8{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="9" keyTopImage="minecraftTenKey\9.svg" width="1"><inputData afterWaite="0" index="0">:9{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="10" keyTopImage="minecraftMetaPicker\10.svg" width="1"><inputData afterWaite="0" index="0">:10{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="11" keyTopImage="minecraftMetaPicker\11.svg" width="1"><inputData afterWaite="0" index="0">:11{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="12" keyTopImage="minecraftMetaPicker\12.svg" width="1"><inputData afterWaite="0" index="0">:12{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="13" keyTopImage="minecraftMetaPicker\13.svg" width="1"><inputData afterWaite="0" index="0">:13{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="14" keyTopImage="minecraftMetaPicker\14.svg" width="1"><inputData afterWaite="0" index="0">:14{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="15" keyTopImage="minecraftMetaPicker\15.svg" width="1"><inputData afterWaite="0" index="0">:15{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="No Meta Data" keyTopImage="minecraftMetaPicker\NoMeta.svg" width="4"><inputData afterWaite="0" index="0">{ENTER}</inputData></key>
+</row>
+</keyMap>
+<keyMap default="0" name="minecraftDualBlockPickerPage1">
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Air" keyTopImage="minecraftBlockPicker\0.svg" width="1"><inputData afterWaite="0" index="0">0</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stone" keyTopImage="minecraftBlockPicker\1.svg" width="1"><inputData afterWaite="0" index="0">1</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Grass" keyTopImage="minecraftBlockPicker\2.svg" width="1"><inputData afterWaite="0" index="0">2</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Dirt" keyTopImage="minecraftBlockPicker\3.svg" width="1"><inputData afterWaite="0" index="0">3</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cobblestone" keyTopImage="minecraftBlockPicker\4.svg" width="1"><inputData afterWaite="0" index="0">4</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wood Plank" keyTopImage="minecraftBlockPicker\5.svg" width="1"><inputData afterWaite="0" index="0">5</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Sapling" keyTopImage="minecraftBlockPicker\6.svg" width="1"><inputData afterWaite="0" index="0">6</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Bedrock" keyTopImage="minecraftBlockPicker\7.svg" width="1"><inputData afterWaite="0" index="0">7</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Flowing Water" keyTopImage="minecraftBlockPicker\8.svg" width="1"><inputData afterWaite="0" index="0">8</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Still Water" keyTopImage="minecraftBlockPicker\9.svg" width="1"><inputData afterWaite="0" index="0">9</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Flowing Lava" keyTopImage="minecraftBlockPicker\10.svg" width="1"><inputData afterWaite="0" index="0">10</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Still Lava" keyTopImage="minecraftBlockPicker\11.svg" width="1"><inputData afterWaite="0" index="0">11</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Sand" keyTopImage="minecraftBlockPicker\12.svg" width="1"><inputData afterWaite="0" index="0">12</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Gravel" keyTopImage="minecraftBlockPicker\13.svg" width="1"><inputData afterWaite="0" index="0">13</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Gold Ore" keyTopImage="minecraftBlockPicker\14.svg" width="1"><inputData afterWaite="0" index="0">14</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Iron Ore" keyTopImage="minecraftBlockPicker\15.svg" width="1"><inputData afterWaite="0" index="0">15</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Coal Ore" keyTopImage="minecraftBlockPicker\16.svg" width="1"><inputData afterWaite="0" index="0">16</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wood" keyTopImage="minecraftBlockPicker\17.svg" width="1"><inputData afterWaite="0" index="0">17</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Leaves" keyTopImage="minecraftBlockPicker\18.svg" width="1"><inputData afterWaite="0" index="0">18</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Glass" keyTopImage="minecraftBlockPicker\20.svg" width="1"><inputData afterWaite="0" index="0">20</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Lapis Lazuli Ore" keyTopImage="minecraftBlockPicker\21.svg" width="1"><inputData afterWaite="0" index="0">21</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Lapis Lazuli Block" keyTopImage="minecraftBlockPicker\22.svg" width="1"><inputData afterWaite="0" index="0">22</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Dispenser" keyTopImage="minecraftBlockPicker\23.svg" width="1"><inputData afterWaite="0" index="0">23</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Sandstone" keyTopImage="minecraftBlockPicker\24.svg" width="1"><inputData afterWaite="0" index="0">24</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Note Block" keyTopImage="minecraftBlockPicker\25.svg" width="1"><inputData afterWaite="0" index="0">25</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Bed" keyTopImage="minecraftBlockPicker\26.svg" width="1"><inputData afterWaite="0" index="0">26</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Powered Rail" keyTopImage="minecraftBlockPicker\27.svg" width="1"><inputData afterWaite="0" index="0">27</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Detector Rail" keyTopImage="minecraftBlockPicker\28.svg" width="1"><inputData afterWaite="0" index="0">28</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Sticky Piston" keyTopImage="minecraftBlockPicker\29.svg" width="1"><inputData afterWaite="0" index="0">29</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cobweb" keyTopImage="minecraftBlockPicker\30.svg" width="1"><inputData afterWaite="0" index="0">30</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Tallgrass" keyTopImage="minecraftBlockPicker\31.svg" width="1"><inputData afterWaite="0" index="0">31</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Dead Bush" keyTopImage="minecraftBlockPicker\32.svg" width="1"><inputData afterWaite="0" index="0">32</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Piston" keyTopImage="minecraftBlockPicker\33.svg" width="1"><inputData afterWaite="0" index="0">33</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Piston Head" keyTopImage="minecraftBlockPicker\34.svg" width="1"><inputData afterWaite="0" index="0">34</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wool" keyTopImage="minecraftBlockPicker\35.svg" width="1"><inputData afterWaite="0" index="0">35</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Dandelion" keyTopImage="minecraftBlockPicker\37.svg" width="1"><inputData afterWaite="0" index="0">37</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Flower" keyTopImage="minecraftBlockPicker\38.svg" width="1"><inputData afterWaite="0" index="0">38</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Brown Mushroom" keyTopImage="minecraftBlockPicker\39.svg" width="1"><inputData afterWaite="0" index="0">39</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Red Mushroom" keyTopImage="minecraftBlockPicker\40.svg" width="1"><inputData afterWaite="0" index="0">40</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Gold Block" keyTopImage="minecraftBlockPicker\41.svg" width="1"><inputData afterWaite="0" index="0">41</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Iron Block" keyTopImage="minecraftBlockPicker\42.svg" width="1"><inputData afterWaite="0" index="0">42</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Double Slab" keyTopImage="minecraftBlockPicker\43.svg" width="1"><inputData afterWaite="0" index="0">43</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Slab" keyTopImage="minecraftBlockPicker\44.svg" width="1"><inputData afterWaite="0" index="0">44</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Bricks" keyTopImage="minecraftBlockPicker\45.svg" width="1"><inputData afterWaite="0" index="0">45</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="TNT" keyTopImage="minecraftBlockPicker\46.svg" width="1"><inputData afterWaite="0" index="0">46</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Bookshelf" keyTopImage="minecraftBlockPicker\47.svg" width="1"><inputData afterWaite="0" index="0">47</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Moss Stone" keyTopImage="minecraftBlockPicker\48.svg" width="1"><inputData afterWaite="0" index="0">48</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Obsidian" keyTopImage="minecraftBlockPicker\49.svg" width="1"><inputData afterWaite="0" index="0">49</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Torch" keyTopImage="minecraftBlockPicker\50.svg" width="1"><inputData afterWaite="0" index="0">50</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Fire" keyTopImage="minecraftBlockPicker\51.svg" width="1"><inputData afterWaite="0" index="0">51</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Monster Spawner" keyTopImage="minecraftBlockPicker\52.svg" width="1"><inputData afterWaite="0" index="0">52</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Oak Wood Stairs" keyTopImage="minecraftBlockPicker\53.svg" width="1"><inputData afterWaite="0" index="0">53</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Chest" keyTopImage="minecraftBlockPicker\54.svg" width="1"><inputData afterWaite="0" index="0">54</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Wire" keyTopImage="minecraftBlockPicker\55.svg" width="1"><inputData afterWaite="0" index="0">55</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Diamond Ore" keyTopImage="minecraftBlockPicker\56.svg" width="1"><inputData afterWaite="0" index="0">56</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Diamond Block" keyTopImage="minecraftBlockPicker\57.svg" width="1"><inputData afterWaite="0" index="0">57</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Crafting Table" keyTopImage="minecraftBlockPicker\58.svg" width="1"><inputData afterWaite="0" index="0">58</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wheat Crops" keyTopImage="minecraftBlockPicker\59.svg" width="1"><inputData afterWaite="0" index="0">59</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Farmland" keyTopImage="minecraftBlockPicker\60.svg" width="1"><inputData afterWaite="0" index="0">60</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Furnace" keyTopImage="minecraftBlockPicker\61.svg" width="1"><inputData afterWaite="0" index="0">61</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Burning Furnace" keyTopImage="minecraftBlockPicker\62.svg" width="1"><inputData afterWaite="0" index="0">62</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Standing Sign Block" keyTopImage="minecraftBlockPicker\63.svg" width="1"><inputData afterWaite="0" index="0">63</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Oak Door Block" keyTopImage="minecraftBlockPicker\64.svg" width="1"><inputData afterWaite="0" index="0">64</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Ladder" keyTopImage="minecraftBlockPicker\65.svg" width="1"><inputData afterWaite="0" index="0">65</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Rail" keyTopImage="minecraftBlockPicker\66.svg" width="1"><inputData afterWaite="0" index="0">66</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cobblestone Stairs" keyTopImage="minecraftBlockPicker\67.svg" width="1"><inputData afterWaite="0" index="0">67</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wall-mounted Sign Block" keyTopImage="minecraftBlockPicker\68.svg" width="1"><inputData afterWaite="0" index="0">68</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Lever" keyTopImage="minecraftBlockPicker\69.svg" width="1"><inputData afterWaite="0" index="0">69</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stone Pressure Plate" keyTopImage="minecraftBlockPicker\70.svg" width="1"><inputData afterWaite="0" index="0">70</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Iron Door Block" keyTopImage="minecraftBlockPicker\71.svg" width="1"><inputData afterWaite="0" index="0">71</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wooden Pressure Plate" keyTopImage="minecraftBlockPicker\72.svg" width="1"><inputData afterWaite="0" index="0">72</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Ore" keyTopImage="minecraftBlockPicker\73.svg" width="1"><inputData afterWaite="0" index="0">73</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Glowing Redstone Ore" keyTopImage="minecraftBlockPicker\74.svg" width="1"><inputData afterWaite="0" index="0">74</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Torch (off)" keyTopImage="minecraftBlockPicker\75.svg" width="1"><inputData afterWaite="0" index="0">75</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Torch (on)" keyTopImage="minecraftBlockPicker\76.svg" width="1"><inputData afterWaite="0" index="0">76</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stone Button" keyTopImage="minecraftBlockPicker\77.svg" width="1"><inputData afterWaite="0" index="0">77</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Snow" keyTopImage="minecraftBlockPicker\78.svg" width="1"><inputData afterWaite="0" index="0">78</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Ice" keyTopImage="minecraftBlockPicker\79.svg" width="1"><inputData afterWaite="0" index="0">79</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Snow Block" keyTopImage="minecraftBlockPicker\80.svg" width="1"><inputData afterWaite="0" index="0">80</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cactus" keyTopImage="minecraftBlockPicker\81.svg" width="1"><inputData afterWaite="0" index="0">81</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Clay" keyTopImage="minecraftBlockPicker\82.svg" width="1"><inputData afterWaite="0" index="0">82</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Sugar Canes" keyTopImage="minecraftBlockPicker\83.svg" width="1"><inputData afterWaite="0" index="0">83</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Jukebox" keyTopImage="minecraftBlockPicker\84.svg" width="1"><inputData afterWaite="0" index="0">84</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Oak Fence" keyTopImage="minecraftBlockPicker\85.svg" width="1"><inputData afterWaite="0" index="0">85</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Pumpkin" keyTopImage="minecraftBlockPicker\86.svg" width="1"><inputData afterWaite="0" index="0">86</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Netherrack" keyTopImage="minecraftBlockPicker\87.svg" width="1"><inputData afterWaite="0" index="0">87</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Soul Sand" keyTopImage="minecraftBlockPicker\88.svg" width="1"><inputData afterWaite="0" index="0">88</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Glowstone" keyTopImage="minecraftBlockPicker\89.svg" width="1"><inputData afterWaite="0" index="0">89</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Nether Portal" keyTopImage="minecraftBlockPicker\90.svg" width="1"><inputData afterWaite="0" index="0">90</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Jack o'Lantern" keyTopImage="minecraftBlockPicker\91.svg" width="1"><inputData afterWaite="0" index="0">91</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cake Block" keyTopImage="minecraftBlockPicker\92.svg" width="1"><inputData afterWaite="0" index="0">92</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Repeater Block (off)" keyTopImage="minecraftBlockPicker\93.svg" width="1"><inputData afterWaite="0" index="0">93</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Repeater Block (on)" keyTopImage="minecraftBlockPicker\94.svg" width="1"><inputData afterWaite="0" index="0">94</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stained Glass" keyTopImage="minecraftBlockPicker\95.svg" width="1"><inputData afterWaite="0" index="0">95</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wooden Trapdoor" keyTopImage="minecraftBlockPicker\96.svg" width="1"><inputData afterWaite="0" index="0">96</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stone Monster Egg" keyTopImage="minecraftBlockPicker\97.svg" width="1"><inputData afterWaite="0" index="0">97</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stone Bricks" keyTopImage="minecraftBlockPicker\98.svg" width="1"><inputData afterWaite="0" index="0">98</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Brown Mushroom Block" keyTopImage="minecraftBlockPicker\99.svg" width="1"><inputData afterWaite="0" index="0">99</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Red Mushroom Block" keyTopImage="minecraftBlockPicker\100.svg" width="1"><inputData afterWaite="0" index="0">100</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Iron Bars" keyTopImage="minecraftBlockPicker\101.svg" width="1"><inputData afterWaite="0" index="0">101</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Glass Pane" keyTopImage="minecraftBlockPicker\102.svg" width="1"><inputData afterWaite="0" index="0">102</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Melon Block" keyTopImage="minecraftBlockPicker\103.svg" width="1"><inputData afterWaite="0" index="0">103</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Pumpkin Stem" keyTopImage="minecraftBlockPicker\104.svg" width="1"><inputData afterWaite="0" index="0">104</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Melon Stem" keyTopImage="minecraftBlockPicker\105.svg" width="1"><inputData afterWaite="0" index="0">105</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Vines" keyTopImage="minecraftBlockPicker\106.svg" width="1"><inputData afterWaite="0" index="0">106</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Oak Fence Gate" keyTopImage="minecraftBlockPicker\107.svg" width="1"><inputData afterWaite="0" index="0">107</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Brick Stairs" keyTopImage="minecraftBlockPicker\108.svg" width="1"><inputData afterWaite="0" index="0">108</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stone Brick Stairs" keyTopImage="minecraftBlockPicker\109.svg" width="1"><inputData afterWaite="0" index="0">109</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Mycelium" keyTopImage="minecraftBlockPicker\110.svg" width="1"><inputData afterWaite="0" index="0">110</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Lily Pad" keyTopImage="minecraftBlockPicker\111.svg" width="1"><inputData afterWaite="0" index="0">111</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Nether Brick" keyTopImage="minecraftBlockPicker\112.svg" width="1"><inputData afterWaite="0" index="0">112</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Nether Brick Fence" keyTopImage="minecraftBlockPicker\113.svg" width="1"><inputData afterWaite="0" index="0">113</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Nether Brick Stairs" keyTopImage="minecraftBlockPicker\114.svg" width="1"><inputData afterWaite="0" index="0">114</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Nether Wart" keyTopImage="minecraftBlockPicker\115.svg" width="1"><inputData afterWaite="0" index="0">115</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Enchantment Table" keyTopImage="minecraftBlockPicker\116.svg" width="1"><inputData afterWaite="0" index="0">116</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Brewing Stand" keyTopImage="minecraftBlockPicker\117.svg" width="1"><inputData afterWaite="0" index="0">117</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cauldron" keyTopImage="minecraftBlockPicker\118.svg" width="1"><inputData afterWaite="0" index="0">118</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="End Portal" keyTopImage="minecraftBlockPicker\119.svg" width="1"><inputData afterWaite="0" index="0">119</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="End Portal Frame" keyTopImage="minecraftBlockPicker\120.svg" width="1"><inputData afterWaite="0" index="0">120</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="End Stone" keyTopImage="minecraftBlockPicker\121.svg" width="1"><inputData afterWaite="0" index="0">121</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Dragon Egg" keyTopImage="minecraftBlockPicker\122.svg" width="1"><inputData afterWaite="0" index="0">122</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Lamp (inactive)" keyTopImage="minecraftBlockPicker\123.svg" width="1"><inputData afterWaite="0" index="0">123</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Lamp (active)" keyTopImage="minecraftBlockPicker\124.svg" width="1"><inputData afterWaite="0" index="0">124</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Double Wood Slab" keyTopImage="minecraftBlockPicker\125.svg" width="1"><inputData afterWaite="0" index="0">125</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wood Slab" keyTopImage="minecraftBlockPicker\126.svg" width="1"><inputData afterWaite="0" index="0">126</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cocoa" keyTopImage="minecraftBlockPicker\127.svg" width="1"><inputData afterWaite="0" index="0">127</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Sandstone Stairs" keyTopImage="minecraftBlockPicker\128.svg" width="1"><inputData afterWaite="0" index="0">128</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Emerald Ore" keyTopImage="minecraftBlockPicker\129.svg" width="1"><inputData afterWaite="0" index="0">129</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Ender Chest" keyTopImage="minecraftBlockPicker\130.svg" width="1"><inputData afterWaite="0" index="0">130</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Tripwire Hook" keyTopImage="minecraftBlockPicker\131.svg" width="1"><inputData afterWaite="0" index="0">131</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Tripwire" keyTopImage="minecraftBlockPicker\132.svg" width="1"><inputData afterWaite="0" index="0">132</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Emerald Block" keyTopImage="minecraftBlockPicker\133.svg" width="1"><inputData afterWaite="0" index="0">133</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Spruce Wood Stairs" keyTopImage="minecraftBlockPicker\134.svg" width="1"><inputData afterWaite="0" index="0">134</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Birch Wood Stairs" keyTopImage="minecraftBlockPicker\135.svg" width="1"><inputData afterWaite="0" index="0">135</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Jungle Wood Stairs" keyTopImage="minecraftBlockPicker\136.svg" width="1"><inputData afterWaite="0" index="0">136</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Command Block" keyTopImage="minecraftBlockPicker\137.svg" width="1"><inputData afterWaite="0" index="0">137</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Beacon" keyTopImage="minecraftBlockPicker\138.svg" width="1"><inputData afterWaite="0" index="0">138</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Cobblestone Wall" keyTopImage="minecraftBlockPicker\139.svg" width="1"><inputData afterWaite="0" index="0">139</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Flower Pot" keyTopImage="minecraftBlockPicker\140.svg" width="1"><inputData afterWaite="0" index="0">140</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Carrots" keyTopImage="minecraftBlockPicker\141.svg" width="1"><inputData afterWaite="0" index="0">141</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Potatoes" keyTopImage="minecraftBlockPicker\142.svg" width="1"><inputData afterWaite="0" index="0">142</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wooden Button" keyTopImage="minecraftBlockPicker\143.svg" width="1"><inputData afterWaite="0" index="0">143</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Mob Head" keyTopImage="minecraftBlockPicker\144.svg" width="1"><inputData afterWaite="0" index="0">144</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Anvil" keyTopImage="minecraftBlockPicker\145.svg" width="1"><inputData afterWaite="0" index="0">145</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Trapped Chest" keyTopImage="minecraftBlockPicker\146.svg" width="1"><inputData afterWaite="0" index="0">146</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Weighted Pressure Plate (light)" keyTopImage="minecraftBlockPicker\147.svg" width="1"><inputData afterWaite="0" index="0">147</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Weighted Pressure Plate (heavy)" keyTopImage="minecraftBlockPicker\148.svg" width="1"><inputData afterWaite="0" index="0">148</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Comparator (inactive)" keyTopImage="minecraftBlockPicker\149.svg" width="1"><inputData afterWaite="0" index="0">149</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Comparator (active)" keyTopImage="minecraftBlockPicker\150.svg" width="1"><inputData afterWaite="0" index="0">150</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Daylight Sensor" keyTopImage="minecraftBlockPicker\151.svg" width="1"><inputData afterWaite="0" index="0">151</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Redstone Block" keyTopImage="minecraftBlockPicker\152.svg" width="1"><inputData afterWaite="0" index="0">152</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Nether Quartz Ore" keyTopImage="minecraftBlockPicker\153.svg" width="1"><inputData afterWaite="0" index="0">153</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Hopper" keyTopImage="minecraftBlockPicker\154.svg" width="1"><inputData afterWaite="0" index="0">154</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Quartz Block" keyTopImage="minecraftBlockPicker\155.svg" width="1"><inputData afterWaite="0" index="0">155</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Quartz Stairs" keyTopImage="minecraftBlockPicker\156.svg" width="1"><inputData afterWaite="0" index="0">156</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Activator Rail" keyTopImage="minecraftBlockPicker\157.svg" width="1"><inputData afterWaite="0" index="0">157</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Dropper" keyTopImage="minecraftBlockPicker\158.svg" width="1"><inputData afterWaite="0" index="0">158</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stained Clay" keyTopImage="minecraftBlockPicker\159.svg" width="1"><inputData afterWaite="0" index="0">159</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Stained Glass Pane" keyTopImage="minecraftBlockPicker\160.svg" width="1"><inputData afterWaite="0" index="0">160</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Leaves2" keyTopImage="minecraftBlockPicker\161.svg" width="1"><inputData afterWaite="0" index="0">161</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Wood2" keyTopImage="minecraftBlockPicker\162.svg" width="1"><inputData afterWaite="0" index="0">162</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Acacia Wood Stairs" keyTopImage="minecraftBlockPicker\163.svg" width="1"><inputData afterWaite="0" index="0">163</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Dark Oak Wood Stairs" keyTopImage="minecraftBlockPicker\164.svg" width="1"><inputData afterWaite="0" index="0">164</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Hay Bale" keyTopImage="minecraftBlockPicker\170.svg" width="1"><inputData afterWaite="0" index="0">170</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Carpet" keyTopImage="minecraftBlockPicker\171.svg" width="1"><inputData afterWaite="0" index="0">171</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Hardened Clay" keyTopImage="minecraftBlockPicker\172.svg" width="1"><inputData afterWaite="0" index="0">172</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Block of Coal" keyTopImage="minecraftBlockPicker\173.svg" width="1"><inputData afterWaite="0" index="0">173</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Packed Ice" keyTopImage="minecraftBlockPicker\174.svg" width="1"><inputData afterWaite="0" index="0">174</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="Double plant" keyTopImage="minecraftBlockPicker\175.svg" width="1"><inputData afterWaite="0" index="0">175</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage1" height="1" keyTop="xxxxx" width="1"></key>
+</row>
+<row>
+</row>
+</keyMap>
+<keyMap default="0" name="minecraftDualMetaPickerPage1">
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="0" keyTopImage="minecraftTenKey\0.svg" width="1"><inputData afterWaite="0" index="0">:0</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="1" keyTopImage="minecraftTenKey\1.svg" width="1"><inputData afterWaite="0" index="0">:1</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="2" keyTopImage="minecraftTenKey\2.svg" width="1"><inputData afterWaite="0" index="0">:2</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="3" keyTopImage="minecraftTenKey\3.svg" width="1"><inputData afterWaite="0" index="0">:3</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="4" keyTopImage="minecraftTenKey\4.svg" width="1"><inputData afterWaite="0" index="0">:4</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="5" keyTopImage="minecraftTenKey\5.svg" width="1"><inputData afterWaite="0" index="0">:5</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="6" keyTopImage="minecraftTenKey\6.svg" width="1"><inputData afterWaite="0" index="0">:6</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="7" keyTopImage="minecraftTenKey\7.svg" width="1"><inputData afterWaite="0" index="0">:7</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="8" keyTopImage="minecraftTenKey\8.svg" width="1"><inputData afterWaite="0" index="0">:8</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="9" keyTopImage="minecraftTenKey\9.svg" width="1"><inputData afterWaite="0" index="0">:9</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="10" keyTopImage="minecraftMetaPicker\10.svg" width="1"><inputData afterWaite="0" index="0">:10</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="11" keyTopImage="minecraftMetaPicker\11.svg" width="1"><inputData afterWaite="0" index="0">:11</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="12" keyTopImage="minecraftMetaPicker\12.svg" width="1"><inputData afterWaite="0" index="0">:12</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="13" keyTopImage="minecraftMetaPicker\13.svg" width="1"><inputData afterWaite="0" index="0">:13</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="14" keyTopImage="minecraftMetaPicker\14.svg" width="1"><inputData afterWaite="0" index="0">:14</inputData></key>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="15" keyTopImage="minecraftMetaPicker\15.svg" width="1"><inputData afterWaite="0" index="0">:15</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualBlockPickerPage2" height="1" keyTop="No Meta Data" keyTopImage="minecraftMetaPicker\NoMeta.svg" width="4"><inputData afterWaite="0" index="0"></inputData></key>
+</row>
+</keyMap>
+<keyMap default="0" name="minecraftDualBlockPickerPage2">
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Air" keyTopImage="minecraftBlockPicker\0.svg" width="1"><inputData afterWaite="0" index="0"> 0</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stone" keyTopImage="minecraftBlockPicker\1.svg" width="1"><inputData afterWaite="0" index="0"> 1</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Grass" keyTopImage="minecraftBlockPicker\2.svg" width="1"><inputData afterWaite="0" index="0"> 2</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Dirt" keyTopImage="minecraftBlockPicker\3.svg" width="1"><inputData afterWaite="0" index="0"> 3</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cobblestone" keyTopImage="minecraftBlockPicker\4.svg" width="1"><inputData afterWaite="0" index="0"> 4</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wood Plank" keyTopImage="minecraftBlockPicker\5.svg" width="1"><inputData afterWaite="0" index="0"> 5</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Sapling" keyTopImage="minecraftBlockPicker\6.svg" width="1"><inputData afterWaite="0" index="0"> 6</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Bedrock" keyTopImage="minecraftBlockPicker\7.svg" width="1"><inputData afterWaite="0" index="0"> 7</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Flowing Water" keyTopImage="minecraftBlockPicker\8.svg" width="1"><inputData afterWaite="0" index="0"> 8</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Still Water" keyTopImage="minecraftBlockPicker\9.svg" width="1"><inputData afterWaite="0" index="0"> 9</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Flowing Lava" keyTopImage="minecraftBlockPicker\10.svg" width="1"><inputData afterWaite="0" index="0"> 10</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Still Lava" keyTopImage="minecraftBlockPicker\11.svg" width="1"><inputData afterWaite="0" index="0"> 11</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Sand" keyTopImage="minecraftBlockPicker\12.svg" width="1"><inputData afterWaite="0" index="0"> 12</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Gravel" keyTopImage="minecraftBlockPicker\13.svg" width="1"><inputData afterWaite="0" index="0"> 13</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Gold Ore" keyTopImage="minecraftBlockPicker\14.svg" width="1"><inputData afterWaite="0" index="0"> 14</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Iron Ore" keyTopImage="minecraftBlockPicker\15.svg" width="1"><inputData afterWaite="0" index="0"> 15</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Coal Ore" keyTopImage="minecraftBlockPicker\16.svg" width="1"><inputData afterWaite="0" index="0"> 16</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wood" keyTopImage="minecraftBlockPicker\17.svg" width="1"><inputData afterWaite="0" index="0"> 17</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Leaves" keyTopImage="minecraftBlockPicker\18.svg" width="1"><inputData afterWaite="0" index="0"> 18</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Glass" keyTopImage="minecraftBlockPicker\20.svg" width="1"><inputData afterWaite="0" index="0"> 20</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Lapis Lazuli Ore" keyTopImage="minecraftBlockPicker\21.svg" width="1"><inputData afterWaite="0" index="0"> 21</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Lapis Lazuli Block" keyTopImage="minecraftBlockPicker\22.svg" width="1"><inputData afterWaite="0" index="0"> 22</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Dispenser" keyTopImage="minecraftBlockPicker\23.svg" width="1"><inputData afterWaite="0" index="0"> 23</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Sandstone" keyTopImage="minecraftBlockPicker\24.svg" width="1"><inputData afterWaite="0" index="0"> 24</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Note Block" keyTopImage="minecraftBlockPicker\25.svg" width="1"><inputData afterWaite="0" index="0"> 25</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Bed" keyTopImage="minecraftBlockPicker\26.svg" width="1"><inputData afterWaite="0" index="0"> 26</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Powered Rail" keyTopImage="minecraftBlockPicker\27.svg" width="1"><inputData afterWaite="0" index="0"> 27</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Detector Rail" keyTopImage="minecraftBlockPicker\28.svg" width="1"><inputData afterWaite="0" index="0"> 28</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Sticky Piston" keyTopImage="minecraftBlockPicker\29.svg" width="1"><inputData afterWaite="0" index="0"> 29</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cobweb" keyTopImage="minecraftBlockPicker\30.svg" width="1"><inputData afterWaite="0" index="0"> 30</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Tallgrass" keyTopImage="minecraftBlockPicker\31.svg" width="1"><inputData afterWaite="0" index="0"> 31</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Dead Bush" keyTopImage="minecraftBlockPicker\32.svg" width="1"><inputData afterWaite="0" index="0"> 32</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Piston" keyTopImage="minecraftBlockPicker\33.svg" width="1"><inputData afterWaite="0" index="0"> 33</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Piston Head" keyTopImage="minecraftBlockPicker\34.svg" width="1"><inputData afterWaite="0" index="0"> 34</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wool" keyTopImage="minecraftBlockPicker\35.svg" width="1"><inputData afterWaite="0" index="0"> 35</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Dandelion" keyTopImage="minecraftBlockPicker\37.svg" width="1"><inputData afterWaite="0" index="0"> 37</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Flower" keyTopImage="minecraftBlockPicker\38.svg" width="1"><inputData afterWaite="0" index="0"> 38</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Brown Mushroom" keyTopImage="minecraftBlockPicker\39.svg" width="1"><inputData afterWaite="0" index="0"> 39</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Red Mushroom" keyTopImage="minecraftBlockPicker\40.svg" width="1"><inputData afterWaite="0" index="0"> 40</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Gold Block" keyTopImage="minecraftBlockPicker\41.svg" width="1"><inputData afterWaite="0" index="0"> 41</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Iron Block" keyTopImage="minecraftBlockPicker\42.svg" width="1"><inputData afterWaite="0" index="0"> 42</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Double Slab" keyTopImage="minecraftBlockPicker\43.svg" width="1"><inputData afterWaite="0" index="0"> 43</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Slab" keyTopImage="minecraftBlockPicker\44.svg" width="1"><inputData afterWaite="0" index="0"> 44</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Bricks" keyTopImage="minecraftBlockPicker\45.svg" width="1"><inputData afterWaite="0" index="0"> 45</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="TNT" keyTopImage="minecraftBlockPicker\46.svg" width="1"><inputData afterWaite="0" index="0"> 46</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Bookshelf" keyTopImage="minecraftBlockPicker\47.svg" width="1"><inputData afterWaite="0" index="0"> 47</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Moss Stone" keyTopImage="minecraftBlockPicker\48.svg" width="1"><inputData afterWaite="0" index="0"> 48</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Obsidian" keyTopImage="minecraftBlockPicker\49.svg" width="1"><inputData afterWaite="0" index="0"> 49</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Torch" keyTopImage="minecraftBlockPicker\50.svg" width="1"><inputData afterWaite="0" index="0"> 50</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Fire" keyTopImage="minecraftBlockPicker\51.svg" width="1"><inputData afterWaite="0" index="0"> 51</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Monster Spawner" keyTopImage="minecraftBlockPicker\52.svg" width="1"><inputData afterWaite="0" index="0"> 52</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Oak Wood Stairs" keyTopImage="minecraftBlockPicker\53.svg" width="1"><inputData afterWaite="0" index="0"> 53</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Chest" keyTopImage="minecraftBlockPicker\54.svg" width="1"><inputData afterWaite="0" index="0"> 54</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Wire" keyTopImage="minecraftBlockPicker\55.svg" width="1"><inputData afterWaite="0" index="0"> 55</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Diamond Ore" keyTopImage="minecraftBlockPicker\56.svg" width="1"><inputData afterWaite="0" index="0"> 56</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Diamond Block" keyTopImage="minecraftBlockPicker\57.svg" width="1"><inputData afterWaite="0" index="0"> 57</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Crafting Table" keyTopImage="minecraftBlockPicker\58.svg" width="1"><inputData afterWaite="0" index="0"> 58</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wheat Crops" keyTopImage="minecraftBlockPicker\59.svg" width="1"><inputData afterWaite="0" index="0"> 59</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Farmland" keyTopImage="minecraftBlockPicker\60.svg" width="1"><inputData afterWaite="0" index="0"> 60</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Furnace" keyTopImage="minecraftBlockPicker\61.svg" width="1"><inputData afterWaite="0" index="0"> 61</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Burning Furnace" keyTopImage="minecraftBlockPicker\62.svg" width="1"><inputData afterWaite="0" index="0"> 62</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Standing Sign Block" keyTopImage="minecraftBlockPicker\63.svg" width="1"><inputData afterWaite="0" index="0"> 63</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Oak Door Block" keyTopImage="minecraftBlockPicker\64.svg" width="1"><inputData afterWaite="0" index="0"> 64</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Ladder" keyTopImage="minecraftBlockPicker\65.svg" width="1"><inputData afterWaite="0" index="0"> 65</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Rail" keyTopImage="minecraftBlockPicker\66.svg" width="1"><inputData afterWaite="0" index="0"> 66</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cobblestone Stairs" keyTopImage="minecraftBlockPicker\67.svg" width="1"><inputData afterWaite="0" index="0"> 67</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wall-mounted Sign Block" keyTopImage="minecraftBlockPicker\68.svg" width="1"><inputData afterWaite="0" index="0"> 68</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Lever" keyTopImage="minecraftBlockPicker\69.svg" width="1"><inputData afterWaite="0" index="0"> 69</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stone Pressure Plate" keyTopImage="minecraftBlockPicker\70.svg" width="1"><inputData afterWaite="0" index="0"> 70</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Iron Door Block" keyTopImage="minecraftBlockPicker\71.svg" width="1"><inputData afterWaite="0" index="0"> 71</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wooden Pressure Plate" keyTopImage="minecraftBlockPicker\72.svg" width="1"><inputData afterWaite="0" index="0"> 72</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Ore" keyTopImage="minecraftBlockPicker\73.svg" width="1"><inputData afterWaite="0" index="0"> 73</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Glowing Redstone Ore" keyTopImage="minecraftBlockPicker\74.svg" width="1"><inputData afterWaite="0" index="0"> 74</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Torch (off)" keyTopImage="minecraftBlockPicker\75.svg" width="1"><inputData afterWaite="0" index="0"> 75</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Torch (on)" keyTopImage="minecraftBlockPicker\76.svg" width="1"><inputData afterWaite="0" index="0"> 76</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stone Button" keyTopImage="minecraftBlockPicker\77.svg" width="1"><inputData afterWaite="0" index="0"> 77</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Snow" keyTopImage="minecraftBlockPicker\78.svg" width="1"><inputData afterWaite="0" index="0"> 78</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Ice" keyTopImage="minecraftBlockPicker\79.svg" width="1"><inputData afterWaite="0" index="0"> 79</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Snow Block" keyTopImage="minecraftBlockPicker\80.svg" width="1"><inputData afterWaite="0" index="0"> 80</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cactus" keyTopImage="minecraftBlockPicker\81.svg" width="1"><inputData afterWaite="0" index="0"> 81</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Clay" keyTopImage="minecraftBlockPicker\82.svg" width="1"><inputData afterWaite="0" index="0"> 82</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Sugar Canes" keyTopImage="minecraftBlockPicker\83.svg" width="1"><inputData afterWaite="0" index="0"> 83</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Jukebox" keyTopImage="minecraftBlockPicker\84.svg" width="1"><inputData afterWaite="0" index="0"> 84</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Oak Fence" keyTopImage="minecraftBlockPicker\85.svg" width="1"><inputData afterWaite="0" index="0"> 85</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Pumpkin" keyTopImage="minecraftBlockPicker\86.svg" width="1"><inputData afterWaite="0" index="0"> 86</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Netherrack" keyTopImage="minecraftBlockPicker\87.svg" width="1"><inputData afterWaite="0" index="0"> 87</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Soul Sand" keyTopImage="minecraftBlockPicker\88.svg" width="1"><inputData afterWaite="0" index="0"> 88</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Glowstone" keyTopImage="minecraftBlockPicker\89.svg" width="1"><inputData afterWaite="0" index="0"> 89</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Nether Portal" keyTopImage="minecraftBlockPicker\90.svg" width="1"><inputData afterWaite="0" index="0"> 90</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Jack o'Lantern" keyTopImage="minecraftBlockPicker\91.svg" width="1"><inputData afterWaite="0" index="0"> 91</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cake Block" keyTopImage="minecraftBlockPicker\92.svg" width="1"><inputData afterWaite="0" index="0"> 92</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Repeater Block (off)" keyTopImage="minecraftBlockPicker\93.svg" width="1"><inputData afterWaite="0" index="0"> 93</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Repeater Block (on)" keyTopImage="minecraftBlockPicker\94.svg" width="1"><inputData afterWaite="0" index="0"> 94</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stained Glass" keyTopImage="minecraftBlockPicker\95.svg" width="1"><inputData afterWaite="0" index="0"> 95</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wooden Trapdoor" keyTopImage="minecraftBlockPicker\96.svg" width="1"><inputData afterWaite="0" index="0"> 96</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stone Monster Egg" keyTopImage="minecraftBlockPicker\97.svg" width="1"><inputData afterWaite="0" index="0"> 97</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stone Bricks" keyTopImage="minecraftBlockPicker\98.svg" width="1"><inputData afterWaite="0" index="0"> 98</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Brown Mushroom Block" keyTopImage="minecraftBlockPicker\99.svg" width="1"><inputData afterWaite="0" index="0"> 99</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Red Mushroom Block" keyTopImage="minecraftBlockPicker\100.svg" width="1"><inputData afterWaite="0" index="0"> 100</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Iron Bars" keyTopImage="minecraftBlockPicker\101.svg" width="1"><inputData afterWaite="0" index="0"> 101</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Glass Pane" keyTopImage="minecraftBlockPicker\102.svg" width="1"><inputData afterWaite="0" index="0"> 102</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Melon Block" keyTopImage="minecraftBlockPicker\103.svg" width="1"><inputData afterWaite="0" index="0"> 103</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Pumpkin Stem" keyTopImage="minecraftBlockPicker\104.svg" width="1"><inputData afterWaite="0" index="0"> 104</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Melon Stem" keyTopImage="minecraftBlockPicker\105.svg" width="1"><inputData afterWaite="0" index="0"> 105</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Vines" keyTopImage="minecraftBlockPicker\106.svg" width="1"><inputData afterWaite="0" index="0"> 106</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Oak Fence Gate" keyTopImage="minecraftBlockPicker\107.svg" width="1"><inputData afterWaite="0" index="0"> 107</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Brick Stairs" keyTopImage="minecraftBlockPicker\108.svg" width="1"><inputData afterWaite="0" index="0"> 108</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stone Brick Stairs" keyTopImage="minecraftBlockPicker\109.svg" width="1"><inputData afterWaite="0" index="0"> 109</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Mycelium" keyTopImage="minecraftBlockPicker\110.svg" width="1"><inputData afterWaite="0" index="0"> 110</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Lily Pad" keyTopImage="minecraftBlockPicker\111.svg" width="1"><inputData afterWaite="0" index="0"> 111</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Nether Brick" keyTopImage="minecraftBlockPicker\112.svg" width="1"><inputData afterWaite="0" index="0"> 112</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Nether Brick Fence" keyTopImage="minecraftBlockPicker\113.svg" width="1"><inputData afterWaite="0" index="0"> 113</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Nether Brick Stairs" keyTopImage="minecraftBlockPicker\114.svg" width="1"><inputData afterWaite="0" index="0"> 114</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Nether Wart" keyTopImage="minecraftBlockPicker\115.svg" width="1"><inputData afterWaite="0" index="0"> 115</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Enchantment Table" keyTopImage="minecraftBlockPicker\116.svg" width="1"><inputData afterWaite="0" index="0"> 116</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Brewing Stand" keyTopImage="minecraftBlockPicker\117.svg" width="1"><inputData afterWaite="0" index="0"> 117</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cauldron" keyTopImage="minecraftBlockPicker\118.svg" width="1"><inputData afterWaite="0" index="0"> 118</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="End Portal" keyTopImage="minecraftBlockPicker\119.svg" width="1"><inputData afterWaite="0" index="0"> 119</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="End Portal Frame" keyTopImage="minecraftBlockPicker\120.svg" width="1"><inputData afterWaite="0" index="0"> 120</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="End Stone" keyTopImage="minecraftBlockPicker\121.svg" width="1"><inputData afterWaite="0" index="0"> 121</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Dragon Egg" keyTopImage="minecraftBlockPicker\122.svg" width="1"><inputData afterWaite="0" index="0"> 122</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Lamp (inactive)" keyTopImage="minecraftBlockPicker\123.svg" width="1"><inputData afterWaite="0" index="0"> 123</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Lamp (active)" keyTopImage="minecraftBlockPicker\124.svg" width="1"><inputData afterWaite="0" index="0"> 124</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Double Wood Slab" keyTopImage="minecraftBlockPicker\125.svg" width="1"><inputData afterWaite="0" index="0"> 125</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wood Slab" keyTopImage="minecraftBlockPicker\126.svg" width="1"><inputData afterWaite="0" index="0"> 126</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cocoa" keyTopImage="minecraftBlockPicker\127.svg" width="1"><inputData afterWaite="0" index="0"> 127</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Sandstone Stairs" keyTopImage="minecraftBlockPicker\128.svg" width="1"><inputData afterWaite="0" index="0"> 128</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Emerald Ore" keyTopImage="minecraftBlockPicker\129.svg" width="1"><inputData afterWaite="0" index="0"> 129</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Ender Chest" keyTopImage="minecraftBlockPicker\130.svg" width="1"><inputData afterWaite="0" index="0"> 130</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Tripwire Hook" keyTopImage="minecraftBlockPicker\131.svg" width="1"><inputData afterWaite="0" index="0"> 131</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Tripwire" keyTopImage="minecraftBlockPicker\132.svg" width="1"><inputData afterWaite="0" index="0"> 132</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Emerald Block" keyTopImage="minecraftBlockPicker\133.svg" width="1"><inputData afterWaite="0" index="0"> 133</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Spruce Wood Stairs" keyTopImage="minecraftBlockPicker\134.svg" width="1"><inputData afterWaite="0" index="0"> 134</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Birch Wood Stairs" keyTopImage="minecraftBlockPicker\135.svg" width="1"><inputData afterWaite="0" index="0"> 135</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Jungle Wood Stairs" keyTopImage="minecraftBlockPicker\136.svg" width="1"><inputData afterWaite="0" index="0"> 136</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Command Block" keyTopImage="minecraftBlockPicker\137.svg" width="1"><inputData afterWaite="0" index="0"> 137</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Beacon" keyTopImage="minecraftBlockPicker\138.svg" width="1"><inputData afterWaite="0" index="0"> 138</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Cobblestone Wall" keyTopImage="minecraftBlockPicker\139.svg" width="1"><inputData afterWaite="0" index="0"> 139</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Flower Pot" keyTopImage="minecraftBlockPicker\140.svg" width="1"><inputData afterWaite="0" index="0"> 140</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Carrots" keyTopImage="minecraftBlockPicker\141.svg" width="1"><inputData afterWaite="0" index="0"> 141</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Potatoes" keyTopImage="minecraftBlockPicker\142.svg" width="1"><inputData afterWaite="0" index="0"> 142</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wooden Button" keyTopImage="minecraftBlockPicker\143.svg" width="1"><inputData afterWaite="0" index="0"> 143</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Mob Head" keyTopImage="minecraftBlockPicker\144.svg" width="1"><inputData afterWaite="0" index="0"> 144</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Anvil" keyTopImage="minecraftBlockPicker\145.svg" width="1"><inputData afterWaite="0" index="0"> 145</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Trapped Chest" keyTopImage="minecraftBlockPicker\146.svg" width="1"><inputData afterWaite="0" index="0"> 146</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Weighted Pressure Plate (light)" keyTopImage="minecraftBlockPicker\147.svg" width="1"><inputData afterWaite="0" index="0"> 147</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Weighted Pressure Plate (heavy)" keyTopImage="minecraftBlockPicker\148.svg" width="1"><inputData afterWaite="0" index="0"> 148</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Comparator (inactive)" keyTopImage="minecraftBlockPicker\149.svg" width="1"><inputData afterWaite="0" index="0"> 149</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Comparator (active)" keyTopImage="minecraftBlockPicker\150.svg" width="1"><inputData afterWaite="0" index="0"> 150</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Daylight Sensor" keyTopImage="minecraftBlockPicker\151.svg" width="1"><inputData afterWaite="0" index="0"> 151</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Redstone Block" keyTopImage="minecraftBlockPicker\152.svg" width="1"><inputData afterWaite="0" index="0"> 152</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Nether Quartz Ore" keyTopImage="minecraftBlockPicker\153.svg" width="1"><inputData afterWaite="0" index="0"> 153</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Hopper" keyTopImage="minecraftBlockPicker\154.svg" width="1"><inputData afterWaite="0" index="0"> 154</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Quartz Block" keyTopImage="minecraftBlockPicker\155.svg" width="1"><inputData afterWaite="0" index="0"> 155</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Quartz Stairs" keyTopImage="minecraftBlockPicker\156.svg" width="1"><inputData afterWaite="0" index="0"> 156</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Activator Rail" keyTopImage="minecraftBlockPicker\157.svg" width="1"><inputData afterWaite="0" index="0"> 157</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Dropper" keyTopImage="minecraftBlockPicker\158.svg" width="1"><inputData afterWaite="0" index="0"> 158</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stained Clay" keyTopImage="minecraftBlockPicker\159.svg" width="1"><inputData afterWaite="0" index="0"> 159</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Stained Glass Pane" keyTopImage="minecraftBlockPicker\160.svg" width="1"><inputData afterWaite="0" index="0"> 160</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Leaves2" keyTopImage="minecraftBlockPicker\161.svg" width="1"><inputData afterWaite="0" index="0"> 161</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Wood2" keyTopImage="minecraftBlockPicker\162.svg" width="1"><inputData afterWaite="0" index="0"> 162</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Acacia Wood Stairs" keyTopImage="minecraftBlockPicker\163.svg" width="1"><inputData afterWaite="0" index="0"> 163</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Dark Oak Wood Stairs" keyTopImage="minecraftBlockPicker\164.svg" width="1"><inputData afterWaite="0" index="0"> 164</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Hay Bale" keyTopImage="minecraftBlockPicker\170.svg" width="1"><inputData afterWaite="0" index="0"> 170</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Carpet" keyTopImage="minecraftBlockPicker\171.svg" width="1"><inputData afterWaite="0" index="0"> 171</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Hardened Clay" keyTopImage="minecraftBlockPicker\172.svg" width="1"><inputData afterWaite="0" index="0"> 172</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Block of Coal" keyTopImage="minecraftBlockPicker\173.svg" width="1"><inputData afterWaite="0" index="0"> 173</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Packed Ice" keyTopImage="minecraftBlockPicker\174.svg" width="1"><inputData afterWaite="0" index="0"> 174</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="Double plant" keyTopImage="minecraftBlockPicker\175.svg" width="1"><inputData afterWaite="0" index="0"> 175</inputData></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+<key afterMap="minecraftDualMetaPickerPage2" height="1" keyTop="xxxxx" width="1"></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="No Second Block" keyTopImage="minecraftBlockPicker\0.svg" width="1"><inputData afterWaite="0" index="0">{ENTER}</inputData></key>
+</row>
+</keyMap>
+<keyMap default="0" name="minecraftDualMetaPickerPage2">
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row></row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="0" keyTopImage="minecraftTenKey\0.svg" width="1"><inputData afterWaite="0" index="0">:0{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="1" keyTopImage="minecraftTenKey\1.svg" width="1"><inputData afterWaite="0" index="0">:1{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="2" keyTopImage="minecraftTenKey\2.svg" width="1"><inputData afterWaite="0" index="0">:2{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="3" keyTopImage="minecraftTenKey\3.svg" width="1"><inputData afterWaite="0" index="0">:3{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="4" keyTopImage="minecraftTenKey\4.svg" width="1"><inputData afterWaite="0" index="0">:4{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="5" keyTopImage="minecraftTenKey\5.svg" width="1"><inputData afterWaite="0" index="0">:5{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="6" keyTopImage="minecraftTenKey\6.svg" width="1"><inputData afterWaite="0" index="0">:6{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="7" keyTopImage="minecraftTenKey\7.svg" width="1"><inputData afterWaite="0" index="0">:7{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="8" keyTopImage="minecraftTenKey\8.svg" width="1"><inputData afterWaite="0" index="0">:8{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="9" keyTopImage="minecraftTenKey\9.svg" width="1"><inputData afterWaite="0" index="0">:9{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="10" keyTopImage="minecraftMetaPicker\10.svg" width="1"><inputData afterWaite="0" index="0">:10{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="11" keyTopImage="minecraftMetaPicker\11.svg" width="1"><inputData afterWaite="0" index="0">:11{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="12" keyTopImage="minecraftMetaPicker\12.svg" width="1"><inputData afterWaite="0" index="0">:12{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="13" keyTopImage="minecraftMetaPicker\13.svg" width="1"><inputData afterWaite="0" index="0">:13{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="14" keyTopImage="minecraftMetaPicker\14.svg" width="1"><inputData afterWaite="0" index="0">:14{ENTER}</inputData></key>
+<key afterMap="minecraftMain" height="1" keyTop="15" keyTopImage="minecraftMetaPicker\15.svg" width="1"><inputData afterWaite="0" index="0">:15{ENTER}</inputData></key>
+</row>
+<row>
+<key afterMap="minecraftMain" height="1" keyTop="No Meta Data" keyTopImage="minecraftMetaPicker\NoMeta.svg" width="4"><inputData afterWaite="0" index="0">{ENTER}</inputData></key>
+</row>
+</keyMap>
+</keyMapSet>

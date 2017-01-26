@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.579" y1="47.455" x2="56.579" y2="22.455"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.94" y1="59.986" x2="56.591" y2="47.486"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.94" y1="34.99" x2="56.591" y2="22.49"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="78.261" y1="59.945" x2="56.61" y2="47.445"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="78.261" y1="34.95" x2="56.61" y2="22.45"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.608" y1="72.465" x2="78.259" y2="59.965"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="78.259" y1="34.97" x2="78.261" y2="59.961"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.608" y1="47.471" x2="78.259" y2="34.97"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,6" x1="34.968" y1="59.984" x2="34.968" y2="34.985"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="13.329" y1="72.516" x2="34.98" y2="60.016"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="13.329" y1="47.52" x2="34.98" y2="35.02"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.65" y1="72.475" x2="56.218" y2="72.225"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.8889,5.3333" x1="51.599" y1="69.558" x2="37.742" y2="61.558"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="35.433" y1="60.225" x2="35" y2="59.975"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.65" y1="47.48" x2="56.218" y2="47.23"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.8889,5.3333" x1="51.599" y1="44.563" x2="37.742" y2="36.563"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="35.433" y1="35.23" x2="35" y2="34.98"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.992" y1="84.994" x2="13.342" y2="72.494"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="13.356" y1="47.471" x2="13.359" y2="72.461"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.997" y1="84.995" x2="56.647" y2="72.495"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.647" y1="47.5" x2="56.647" y2="48"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.8885,5.3312" x1="56.648" y1="53.331" x2="56.65" y2="69.324"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.65" y1="71.99" x2="56.65" y2="72.49"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.992" y1="84.995" x2="34.992" y2="59.995"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.992" y1="59.999" x2="13.342" y2="47.499"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.997" y1="60" x2="56.647" y2="47.5"/>
+<path d="M79.923,78.014l0.517-1.928l-1.928-0.517c-0.002-0.001-0.005-0.001-0.008-0.002l-13.656-3.659c-1.07-0.288-2.164,0.348-2.449,1.414c-0.286,1.066,0.347,2.163,1.414,2.449l8.996,2.41l-21.8,12.586c-0.957,0.553-1.284,1.775-0.732,2.732c0.37,0.642,1.042,1,1.734,1c0.339,0,0.683-0.086,0.998-0.268l21.8-12.586l-2.41,8.996c-0.286,1.066,0.347,2.163,1.414,2.449c0.174,0.047,0.348,0.069,0.519,0.069c0.883-0.001,1.691-0.59,1.931-1.483l3.659-13.656C79.922,78.02,79.922,78.017,79.923,78.014z"/>
+</svg>

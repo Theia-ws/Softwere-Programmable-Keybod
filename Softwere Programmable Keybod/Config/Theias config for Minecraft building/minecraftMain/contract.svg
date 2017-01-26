@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,6" x1="56.579" y1="47.455" x2="56.579" y2="22.455"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.94" y1="59.986" x2="56.591" y2="47.486"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,6" x1="34.94" y1="34.99" x2="56.591" y2="22.49"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,6" x1="78.261" y1="59.945" x2="56.61" y2="47.445"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="78.261" y1="34.95" x2="77.828" y2="34.7"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.8889,5.3333" x1="73.209" y1="32.034" x2="59.353" y2="24.034"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="57.043" y1="22.7" x2="56.61" y2="22.45"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,6" x1="56.608" y1="72.465" x2="78.259" y2="59.965"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,6" x1="78.259" y1="34.97" x2="78.261" y2="59.961"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,6" x1="56.608" y1="47.471" x2="78.259" y2="34.97"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.968" y1="59.984" x2="34.968" y2="34.985"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="13.329" y1="72.516" x2="34.98" y2="60.016"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="13.329" y1="47.52" x2="34.98" y2="35.02"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.65" y1="72.475" x2="35" y2="59.975"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.65" y1="47.48" x2="35" y2="34.98"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.992" y1="84.994" x2="13.342" y2="72.494"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="13.356" y1="47.471" x2="13.359" y2="72.461"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.997" y1="84.995" x2="56.647" y2="72.495"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="56.647" y1="47.5" x2="56.65" y2="72.49"/>
+<line fill="none" stroke="#006837" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.992" y1="84.995" x2="34.992" y2="59.995"/>
+<line fill="none" stroke="#C1272D" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.992" y1="59.999" x2="13.342" y2="47.499"/>
+<line fill="none" stroke="#1B1464" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="34.997" y1="60" x2="56.647" y2="47.5"/>
+<path d="M79.724,76.5c-0.554-0.956-1.774-1.285-2.732-0.732l-21.8,12.586l2.41-8.996c0.286-1.066-0.347-2.163-1.414-2.449c-1.071-0.287-2.163,0.348-2.449,1.414L49.56,93.914l15.592,4.178c0.174,0.047,0.348,0.069,0.519,0.069c0.883,0,1.691-0.59,1.931-1.483c0.286-1.066-0.347-2.163-1.414-2.449l-8.996-2.41l21.8-12.586C79.948,78.68,80.275,77.457,79.724,76.5z"/>
+</svg>
