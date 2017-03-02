@@ -8,10 +8,17 @@ KeyMap.xmlはZIPの直下に配置してください。
 -->
 <keyMapSet windowHeight="xxx" windowWidth="xxx">
 <!--
-windowHeight、windowWidthはウィンドウ入力部分のサイズをピクセル単位で指定。
+windowHeight、windowWidth:
+ウィンドウ入力部分のサイズをピクセル単位で指定。
 キーのキーの間に10pxのマージン、上下左右に10pxのマージンが確保され、
 格子状に分割された空間にキーが配置される。
 指定しない場合はキー1つを100px四方としてウィンドウサイズを自動定義。
+-->
+<extends>xxx</extends>
+<extends>xxx</extends>
+<!--
+extends:
+継承元となるキーマップフォルダ名を指定。
 -->
 <targetExe>*.exe</targetExe>
 <targetExe>*.exe</targetExe>
@@ -31,12 +38,18 @@ height:
 
 name:
 キーマップ名。
-キーマップセットで一意斜めでなければならない。
+キーマップセットで一意な名前でなければならない。
 
 width:
 横方向のキー数。
 未指定の場合、最も縦方向が長いキーマップに合わせて調整される。
 指定した場合、キーサイズが自動調整され画面全体を覆うようになる。
+-->
+<extends>xxx</extends>
+<extends>xxx</extends>  
+<!--
+extends:
+継承元となるキーマップ名を指定。
 -->
 <row>
 <!--
@@ -69,6 +82,7 @@ inputDataをしていない場合:
 afterWaite:
 インプットデータを流し込んだ後待機する秒数。
 m秒で指定する。
+キーマップ間の遷移や、次の入力を阻害することとなる為、あまり大きな値は設定しないこと。
 
 index:
 インプットデータの流し込み順序。key内で一意な数値でなければならない。
