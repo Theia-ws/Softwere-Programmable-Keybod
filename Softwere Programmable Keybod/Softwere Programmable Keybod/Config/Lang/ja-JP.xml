@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Language>
+	<Notifyicon>
+		<!--Softwere Programmable Keybod-->
+		<IconName>Softwere Programmable Keybod</IconName>
+		<!--Example Conifg-->
+		<ExampleConifg>設定ファイル作成例</ExampleConifg>
+		<!--Import Key Map-->
+		<ImportKeyMap>キーマップをインポート</ImportKeyMap>
+		<!--Select Key Map-->
+		<SelectKeyMap>キーマップ選択</SelectKeyMap>
+		<!--Exit-->
+		<Exit>終了</Exit>
+	</Notifyicon>
+	<ImportKeyMap>
+		<!--Zip Archive(*.zip)|*.zip-->
+		<DialogFilter>Zip アーカイブ(*.zip)|*.zip</DialogFilter>
+		<!--Not included Key Map XML file.-->
+		<XmlNotFound>Zipアーカイブにキーマップを定義したXMLファイルが含まれていません。</XmlNotFound>
+		<!--Can't open ZIP archive.-->
+		<CannotOpenZipFile>指定したZipアーカイブを開くことができません。</CannotOpenZipFile>
+		<UNZipProgressMessage>キーマップファイル展開中({0}/{1})</UNZipProgressMessage>
+		<SvgSearchMessage>変換対象SVGファイル検索中</SvgSearchMessage>
+		<Svg2XamlConvertMessage>SVGをXAMLに変換中({0}/{1})</Svg2XamlConvertMessage>
+		<CannotXamlConvert>SVGファイルからXAMLファイルへのコンバートに失敗しました。</CannotXamlConvert>
+		<!--Successful import of the Key Map.-->
+		<Successful>キーマップのインポートに成功しました。</Successful>
+		<OldClearQ>同名のキーマップファイルが存在します。古いキーマップを削除しますか？</OldClearQ>
+		<OldClearCancel>同名のキーマップが存在する為インポートをキャンセルしました。</OldClearCancel>
+	</ImportKeyMap>
+	<Config>
+	<FalidSave>設定ファイルのセーブに失敗しました。次回起動時の設定は直前に保存した際の設定で起動します。</FalidSave>
+		</Config>
+	<KeyMapSetLoder>
+		<ErrorMessages>
+			<LoadMiss>キーマップが不正なためロードに失敗しました。</LoadMiss>
+			<ErrorPoint> キーマップパス:{0} キーマップ名:{1} 行番号:{2} キー番号:{3} インプットインデックス:{4} 値:{5}</ErrorPoint>
+			<KeyMapSet>
+				<WindowHeight>
+					<Zero>ウィンドウ高に不正な値(0)が設定されています。</Zero>
+					<Minus>ウィンドウ高に不正な値(負値)が設定されています。</Minus>
+				</WindowHeight>
+				<WindowWidth>
+					<Zero>ウィンドウ幅に不正な値(0)が設定されています。</Zero>
+					<Minus>ウィンドウ幅に不正な値(負値)が設定されています。</Minus>
+				</WindowWidth>
+				<KeyMapCheck>
+					<Null>キーマップが存在していません。</Null>
+					<ExtendsError>継承元のキーマップが存在していません。</ExtendsError>
+					<DefaultMap>
+						<Zero>デフォルトマップが設定されていません。</Zero>
+						<Over>フォルトマップがが複数設定されています。</Over>
+					</DefaultMap>
+				</KeyMapCheck>
+			</KeyMapSet>
+			<KeyMap>
+				<Height>キーマップ高に不正な値(負値)が設定されています。</Height>
+				<NoExtendsMap>継承元キーマップが見つかりません。</NoExtendsMap>
+				<NoName>キーマップ名が設定されていません。</NoName>
+				<Width>キーマップ幅に不正な値(負値)が設定されています。</Width>
+			</KeyMap>
+			<Key>
+				<NoAflterMap>アフターマップが見つかりません。</NoAflterMap>
+				<Height>
+					<Zero>キー高に不正な値(0)が設定されています。</Zero>
+					<Minus>キー高に不正な値(負値)が設定されています。</Minus>
+				</Height>
+				<Width>
+					<Zero>キー幅に不正な値(0)が設定されています。</Zero>
+					<Minus>キー幅に不正な値(負値)が設定されています。</Minus>
+				</Width>
+			</Key>
+			<InputData>
+				<AfterWateMinus>アフターウェイトに不正な値(負値)が設定されています。</AfterWateMinus>
+				<Index>
+					<Minus>インデックスに不正な値(負値)が設定されています。</Minus>
+					<Duplicate>インデックスが重複しています。</Duplicate>
+				</Index>
+			</InputData>
+		</ErrorMessages>
+	</KeyMapSetLoder>
+	<ConfigExampleLoadMiss>設定例の読み込みに失敗しました。</ConfigExampleLoadMiss>
+</Language>

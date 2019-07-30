@@ -1,0 +1,16 @@
+﻿<Window x:Class="WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport.ImportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport"
+        mc:Ignorable="d" SnapsToDevicePixels="True" Height="50" Width="200" Background="#FF1A1A1A" ShowInTaskbar="False" Topmost="True"
+		WindowStyle="None" ResizeMode="NoResize" ContentRendered="Window_ContentRendered">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="{x:Static SystemParameters.CaptionHeight}" ResizeBorderThickness="{x:Static SystemParameters.WindowResizeBorderThickness}"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <ProgressBar Name="StatusProgress" Margin="10"/>
+        <Label Name="StatusLabel" Margin="10" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>

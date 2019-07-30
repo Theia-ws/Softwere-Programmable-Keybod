@@ -1,0 +1,30 @@
+﻿<Button Name="button" x:Class="WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker.Key"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" BorderThickness="0" BorderBrush="Transparent" Padding="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFFFFFF">
+    <Button.Template>
+        <ControlTemplate TargetType="Button">
+            <Border DataContext="0" Name="border" BorderThickness="0" BorderBrush="Transparent" Background="#FF333333" DataContextChanged="Border_DataContextChanged">
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.Setters>
+                        <Setter TargetName="border" Property="Background" Value="#FFe5e5e5"/>
+                        <Setter TargetName="border" Property="DataContext" Value="1"/>
+                    </Trigger.Setters>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Trigger.Setters>
+                        <Setter TargetName="border" Property="Background" Value="#FF757575"/>
+                        <Setter TargetName="border" Property="DataContext" Value="2"/>
+                    </Trigger.Setters>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Button.Template>
+</Button>

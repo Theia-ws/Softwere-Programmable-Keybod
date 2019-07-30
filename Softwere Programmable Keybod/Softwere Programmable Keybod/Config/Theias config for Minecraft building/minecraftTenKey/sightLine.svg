@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<ellipse fill="#FFFFFF" cx="50" cy="50" rx="40" ry="20"/>
+<path fill="#808080" d="M50,30c22.091,0,40,8.954,40,20S72.091,70,50,70c-22.092,0-40-8.954-40-20S27.908,30,50,30 M50,28C26.448,28,8,37.664,8,50c0,12.337,18.449,22,42,22s42-9.663,42-22C92,37.664,73.552,28,50,28L50,28z"/>
+<circle fill="#603813" cx="50" cy="50" r="20"/>
+<circle cx="50" cy="50" r="10"/>
+</svg>

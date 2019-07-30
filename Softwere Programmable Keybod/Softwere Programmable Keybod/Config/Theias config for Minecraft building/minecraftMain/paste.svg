@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path fill="#EDC87E" d="M67.5,85.588c0,2.438-1.918,4.412-4.285,4.412H11.786C9.419,90,7.5,88.025,7.5,85.588V19.412C7.5,16.975,9.419,15,11.786,15h51.429c2.367,0,4.285,1.975,4.285,4.412V85.588z"/>
+<path fill="#FFFFFF" d="M58,20.5H17V15c0-1.654,1.346-3,3-3h9.5V7.5c0-1.654,1.346-3,3-3h10c1.654,0,3,1.346,3,3l0,4.5H55c1.654,0,3,1.346,3,3V20.5z"/>
+<path fill="#666666" d="M32.5,5h10C43.882,5,45,6.118,45,7.5l0,5h10c1.382,0,2.5,1.118,2.5,2.5v5h-40v-5c0-1.382,1.118-2.5,2.5-2.5h10v-5C30,6.118,31.118,5,32.5,5z"/>
+<path fill="#FFFFFF" d="M41,16h-7V9h7V16z"/>
+<polygon fill="#FFFFFF" points="50,95 92.5,95 92.5,47.857 79.75,35 50,35 "/>
+<path fill="#666666" d="M80.167,34H49v62h44.5V47.445L80.167,34z M80.75,37.429l9.351,9.429H80.75V37.429z M51,94V36h27.75v12.857H91.5V94H51z"/>
+</svg>
