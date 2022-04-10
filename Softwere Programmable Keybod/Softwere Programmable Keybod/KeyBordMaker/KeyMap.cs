@@ -44,7 +44,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 
 			//キートップのリストをキーマップに登録
 			foreach(var Key in this.Keys) {
-				this.Children.Add(Key);
+				_=this.Children.Add(Key);
 			}
 
 		}

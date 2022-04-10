@@ -8,9 +8,9 @@ namespace WS.Theia.Library.SendKeys {
 			foreach(var input in pInputs) {
 				var keyInput = input.Data.Keyboard;
 				System.Diagnostics.Debug.Write("wVk:"+keyInput.Vk.ToString("X2",System.Globalization.CultureInfo.CurrentCulture)+";");
-				System.Diagnostics.Debug.Write("wScan:"+keyInput.Scan+";");
-				System.Diagnostics.Debug.Write("dwFlags:"+keyInput.Flags+";");
-				System.Diagnostics.Debug.Write("time:"+keyInput.Time+";");
+				System.Diagnostics.Debug.Write("wScan:"+keyInput.Scan.ToString(System.Globalization.CultureInfo.CurrentCulture)+";");
+				System.Diagnostics.Debug.Write("dwFlags:"+keyInput.Flags.ToString(System.Globalization.CultureInfo.CurrentCulture)+";");
+				System.Diagnostics.Debug.Write("time:"+keyInput.Time.ToString(System.Globalization.CultureInfo.CurrentCulture)+";");
 				System.Diagnostics.Debug.WriteLine("dwExtraInfo:"+keyInput.ExtraInfo+";");
 			}
 #endif

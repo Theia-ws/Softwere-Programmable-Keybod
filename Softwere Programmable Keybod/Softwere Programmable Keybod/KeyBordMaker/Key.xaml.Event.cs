@@ -185,15 +185,15 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 		/// <param name="sender">イベント ハンドラーが添付されるオブジェクト。</param>
 		/// <param name="e">イベントのデータ。</param>
 		private void KeyClickEvent(object sender,RoutedEventArgs e) {
-			
+
 			//フォアグラウンドのウィンドウを取得
-			NativeMethods.SetForegroundWindow(NativeMethods.GetForegroundWindow());
+			_=NativeMethods.SetForegroundWindow(NativeMethods.GetForegroundWindow());
 
 			foreach(var inputData in this.KeyInput) {
 
 				//キー入力を送信
 				//TODO:System.Windows.Forms.SendKeys.SendWait(inputData.Value);
-				inputData.Value.SendKeys();
+				inputData.Value?.SendKeys();
 
 				//ウェイトタイムの間待機
 				Thread.Sleep(inputData.AfterWaite);
@@ -202,7 +202,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 
 			//キー入力後に遷移するキーマップが設定されている場合、キーマップ遷移処理を実行
 			if(this.AfterMap!=null) {
-				KeyMapChangeProcess?.Invoke(this.AfterMap);
+				this.KeyMapChangeProcess?.Invoke(this.AfterMap);
 			}
 
 		}

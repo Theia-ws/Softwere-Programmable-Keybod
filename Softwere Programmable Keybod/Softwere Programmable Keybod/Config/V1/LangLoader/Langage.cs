@@ -50,7 +50,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.LangLoader {
 			}
 		}
 		internal Language AutoComplete(string autoCompleteLangPath) {
-			AutoComplete(Load(autoCompleteLangPath));
+			this.AutoComplete(Load(autoCompleteLangPath));
 			return this;
 		}
 	}

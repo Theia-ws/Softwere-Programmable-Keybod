@@ -37,9 +37,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		/// </summary>
 		/// <param name="configPath">設定ファイルのファイルパスを示す文字列。</param>
 		/// <returns>設定情報のインスタンス</returns>
-		private static AppMasterConfig CreateConfig(string configPath) {
-			return SaveConfig(AppMasterConfig.Create(configPath));
-		}
+		private static AppMasterConfig CreateConfig(string configPath) => SaveConfig(AppMasterConfig.Create(configPath));
 
 		/// <summary>
 		/// 設定ファイルを作成・保存します。
@@ -50,7 +48,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 			try {
 				config.Save();
 			} catch(SaveException ex) {
-				MessageBox.Show(Language.Config.FalidSave+Environment.NewLine+ex.Message,Language.Config.FalidSave,MessageBoxButtons.OK,MessageBoxIcon.Error,MessageBoxDefaultButton.Button1,MessageBoxOptions.DefaultDesktopOnly|(CultureInfo.CurrentCulture.TextInfo.IsRightToLeft ? MessageBoxOptions.RtlReading : 0));
+				_=MessageBox.Show(Language.Config.FalidSave+Environment.NewLine+ex.Message,Language.Config.FalidSave,MessageBoxButtons.OK,MessageBoxIcon.Error,MessageBoxDefaultButton.Button1,MessageBoxOptions.DefaultDesktopOnly|(CultureInfo.CurrentCulture.TextInfo.IsRightToLeft ? MessageBoxOptions.RtlReading : 0));
 			}
 			return config;
 		}

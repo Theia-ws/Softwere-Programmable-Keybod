@@ -6,16 +6,17 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 		}
 
 		protected override (int loopLength, int nextCharCounter) GetLoopLength(char[] chars,int charCounter) {
+
 			var loopLength = 0;
 			var state = false;
 			for(;int.TryParse(chars[charCounter].ToString(),out var parcedVal);charCounter++) {
 				state=true;
-				loopLength=loopLength*10+parcedVal;
+				loopLength*=10;
+				loopLength+=parcedVal;
 			}
-			if(!state||chars[charCounter]!='}') {
-				throw new ArgumentException("keys 有効なキー入力ではありません。",nameof(chars));
-			}
-			return (loopLength, ++charCounter);
+
+			return !state||chars[charCounter]!='}' ? throw new ArgumentException("keys 有効なキー入力ではありません。",nameof(chars)) : (loopLength, ++charCounter);
+
 		}
 	}
 }

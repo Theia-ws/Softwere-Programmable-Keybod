@@ -73,7 +73,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 		[XmlIgnore]
 		internal Size MapSize => new Size() {
 			Height=this.Height==-1 ? this.Row.Count : this.Height,
-			Width=GetWidth()
+			Width=this.GetWidth()
 		};
 
 		/// <summary>
@@ -136,9 +136,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 				}
 
 				//継承元キーマップデータを取得
-				var baseKeyMap = baseKeyMapColection.Find((KeyMap keyMap) => {
-					return keyMap.Name==extendsKeyMapName;
-				});
+				var baseKeyMap = baseKeyMapColection.Find((KeyMap keyMap) => keyMap.Name==extendsKeyMapName);
 
 				//継承元キーマップデータが取得できない場合スキップ
 				if(baseKeyMap==null) {

@@ -4,17 +4,9 @@ using System.Runtime.InteropServices;
 namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 	static class NativeMethods {
 
-		internal static bool SetNotActiveWindow(IntPtr hWnd) {
-			if(SetWindowLong(hWnd,GWL.EXSTYLE,GetWindowLong(hWnd,GWL.EXSTYLE)|WS_EX_NOACTIVATE)==0&&0!=Marshal.GetLastWin32Error()) {
-					return false;
-			}
-			if(SetWindowPos(hWnd,IntPtr.Zero,0,0,0,0,SWP.NOMOVE|SWP.NOSIZE|SWP.NOZORDER|SWP.FRAMECHANGED)==0&&0!=Marshal.GetLastWin32Error()) {
-					return false;
-			}
-			return true;
-		}
+		internal static bool SetNotActiveWindow(IntPtr hWnd) => (SetWindowLong(hWnd,GWL.EXSTYLE,GetWindowLong(hWnd,GWL.EXSTYLE)|WS_EX_NOACTIVATE)!=0||0==Marshal.GetLastWin32Error())&&(SetWindowPos(hWnd,IntPtr.Zero,0,0,0,0,SWP.NOMOVE|SWP.NOSIZE|SWP.NOZORDER|SWP.FRAMECHANGED)!=0||0==Marshal.GetLastWin32Error());
 
-		const UInt32 WS_EX_NOACTIVATE = 0x8000000;
+		const uint WS_EX_NOACTIVATE = 0x8000000;
 
 		private enum GWL:int {
 			WINDPROC = -4,
@@ -41,12 +33,12 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		}
 
 		[DllImport("user32.dll")]
-		private static extern UInt32 GetWindowLong(IntPtr hWnd,GWL index);
-		[DllImport("user32.dll", SetLastError = true)]
-		private static extern UInt32 SetWindowLong(IntPtr hWnd,GWL index,UInt32 unValue);
+		private static extern uint GetWindowLong(IntPtr hWnd,GWL index);
+		[DllImport("user32.dll",SetLastError = true)]
+		private static extern uint SetWindowLong(IntPtr hWnd,GWL index,uint unValue);
 
 		[DllImport("user32.dll",SetLastError = true)]
-		private static extern UInt32 SetWindowPos(IntPtr hWnd,IntPtr hWndInsertAfter,int x,int y,int width,int height,SWP flags);
+		private static extern uint SetWindowPos(IntPtr hWnd,IntPtr hWndInsertAfter,int x,int y,int width,int height,SWP flags);
 
 		[DllImport("user32.dll")]
 		internal static extern IntPtr GetForegroundWindow();

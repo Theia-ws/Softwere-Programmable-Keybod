@@ -11,9 +11,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config {
 		/// <summary>
 		/// コンストラクタ
 		/// </summary>
-		public ConfigExample() {
-			InitializeComponent();
-		}
+		public ConfigExample() => this.InitializeComponent();
 
 		/// <summary>
 		/// ウィンドウロード処理イベント
@@ -27,7 +25,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config {
 				this.LoadExample();
 				
 			} catch(ConfigExampleException) {
-				MessageBox.Show(this,App.Language.ConfigExampleLoadMiss,App.Language.ConfigExampleLoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(this,App.Language.ConfigExampleLoadMiss,App.Language.ConfigExampleLoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 				this.Close();
 			}
 

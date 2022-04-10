@@ -11,9 +11,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		/// <summary>
 		/// コンストラクタ
 		/// </summary>
-		public MainWindow() {
-			InitializeComponent();
-		}
+		public MainWindow() => this.InitializeComponent();
 
 		/// <summary>
 		/// ウィンドウロード処理イベント
@@ -64,9 +62,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
-		private void MinimizeButton_Click(object sender,RoutedEventArgs e) {
-			this.Hide();
-		}
+		private void MinimizeButton_Click(object sender,RoutedEventArgs e) => this.Hide();
 
 		/// <summary>
 		/// 最大化/最大化解除ボタンクリック時のハンドラー。
@@ -88,9 +84,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
-		private void CloseButton_Click(object sender,RoutedEventArgs e) {
-			this.Hide();
-		}
+		private void CloseButton_Click(object sender,RoutedEventArgs e) => this.Hide();
 
 	}
 }

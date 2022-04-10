@@ -133,9 +133,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 		/// <summary>
 		/// デフォルトのキーマップに遷移します。
 		/// </summary>
-		internal void TransitionDefaultKeyMap() {
-			this.KeyMapChenge(this.DefaultKeyMap);
-		}
+		internal void TransitionDefaultKeyMap() => this.KeyMapChenge(this.DefaultKeyMap);
 
 		/// <summary>
 		/// キーマップを登録先となるGrid クラスから削除を行います。
@@ -148,7 +146,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			}
 
 			//キーマップを登録先となるGrid クラスから削除
-			this.PiarentGrid.Children.Remove(NowMap);
+			this.PiarentGrid.Children.Remove(this.NowMap);
 			this.NowMap=null;
 
 		}
@@ -161,11 +159,11 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 
 			//キーマップが登録されている場合を登録先となるGrid クラスから削除
 			if(this.NowMap!=null) {
-				this.PiarentGrid.Children.Remove(NowMap);
+				this.PiarentGrid.Children.Remove(this.NowMap);
 			}
 
 			//遷移先となるキーマップをGrid クラスに登録
-			this.PiarentGrid.Children.Add(newMap);
+			_=this.PiarentGrid.Children.Add(newMap);
 			this.NowMap=newMap;
 
 		}
@@ -230,9 +228,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 		/// <summary>
 		/// キートップの表示を非同期にキャンセルします。
 		/// </summary>
-		internal async void KeyTopUpdataCancelAsync() {
-			await Task.Run(new Action(this.KeyTopUpdataCancel));
-		}
+		internal async void KeyTopUpdataCancelAsync() => await Task.Run(new Action(this.KeyTopUpdataCancel));
 
 		#endregion
 

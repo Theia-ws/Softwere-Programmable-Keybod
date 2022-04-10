@@ -10,15 +10,11 @@
 		public static bool IsKeyUp(this KeyboardFlag value) {
 			return value.Check(KeyboardFlag.KeyUp);
 		}*/
-		public static bool IsUnicode(this KeyboardFlag value) {
-			return value.Check(KeyboardFlag.Unicode);
-		}
+		public static bool IsUnicode(this KeyboardFlag value) => value.Check(KeyboardFlag.Unicode);
 		/*public static bool IsScanCode(this KeyboardFlag value) {
 			return value.Check(KeyboardFlag.ScanCode);
 		}*/
 
-		private static bool Check(this KeyboardFlag targetValue,KeyboardFlag checkValue) {
-			return (targetValue&checkValue)==checkValue;
-		}
+		private static bool Check(this KeyboardFlag targetValue,KeyboardFlag checkValue) => (targetValue&checkValue)==checkValue;
 	}
 }

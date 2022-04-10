@@ -193,9 +193,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 					//キーマップデータの継承処理
 					var appendingKeyMapCollection = new KeyMapCollection();
 					foreach(var baseKeyMap in baseKeyMapSet.KeyMap) {
-						if(this.KeyMap.Find((KeyMap keyMap) => {
-							return keyMap.Name==baseKeyMap.Name;
-						})!=null) {
+						if(this.KeyMap.Find((KeyMap keyMap) => keyMap.Name==baseKeyMap.Name)!=null) {
 							continue;
 						}
 						var targetKeyMap = new KeyMap();
@@ -272,9 +270,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 				foreach(var extendsValue in keyMap.Extends) {
 
 					//キーマップデータの継承元となるキーマップデータの存在チェック
-					if(!string.IsNullOrEmpty(extendsValue)&&this.KeyMap.Find((KeyMap searchTarget) => {
-						return searchTarget.Name==extendsValue;
-					})==null) {
+					if(!string.IsNullOrEmpty(extendsValue)&&this.KeyMap.Find((KeyMap searchTarget) => searchTarget.Name==extendsValue)==null) {
 						ErrorMessage.Add(new CheckException(App.Language.KeyMapSetLoder.ErrorMessages.KeyMapSet.KeyMapCheck.ExtendsError) {
 							Value=extendsValue
 						});
@@ -342,7 +338,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			foreach(var keyMap in this.KeyMap) {
 				keyMap.AutoComplete(mapSize);
 			}
-			
+
 			//ウィンドウの高さをオートコンプリート
 			if(this.WindowHeight==-1) {
 				foreach(var keyMap in this.KeyMap) {
@@ -350,7 +346,8 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 						this.WindowHeight=keyMap.Height;
 					}
 				}
-				this.WindowHeight=this.WindowHeight*110+10;
+				this.WindowHeight*=110;
+				this.WindowHeight+=10;
 			}
 
 			//ウィンドウの幅をオートコンプリート
@@ -360,9 +357,10 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 						this.WindowWidth=keyMap.Width;
 					}
 				}
-				this.WindowWidth=this.WindowWidth*110+10;
+				this.WindowWidth*=110;
+				this.WindowWidth+=10;
 			}
-			
+
 		}
 
 		#endregion

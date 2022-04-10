@@ -22,9 +22,7 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 			this.KeyUp=keyUp;
 		}
 
-		internal static ParsedTree CreateRoot() {
-			return new ParsedTree();
-		}
+		internal static ParsedTree CreateRoot() => new ParsedTree();
 
 		internal static ParsedTree Create(ParsedTree piarent,ushort keyCode,KeyboardFlag flags,int loopLength) {
 			if(!flags.IsUnicode()) {
@@ -38,7 +36,7 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 				return new ParsedTree(piarent,new INPUT(0,keyCode,flags|KeyboardFlag.KeyDown,0,IntPtr.Zero),new INPUT(0,keyCode,flags|KeyboardFlag.KeyUp,0,IntPtr.Zero),loopLength);
 			}
 			var baseVk = (ushort)(vk&0x00ff);
-			flags=flags^KeyboardFlag.Unicode;
+			flags^=KeyboardFlag.Unicode;
 			return new ParsedTree(piarent,new INPUT(baseVk,0,flags|KeyboardFlag.KeyDown,0,IntPtr.Zero),new INPUT(baseVk,0,flags|KeyboardFlag.KeyUp,0,IntPtr.Zero),loopLength).ICKAdd(vk,SHIFTKEYSCAN,VK.VK_SHIFT).ICKAdd(vk,CTRLKEYSCAN,VK.VK_CONTROL).ICKAdd(vk,ALTKEYSCAN,VK.VK_MENU);
 		}
 

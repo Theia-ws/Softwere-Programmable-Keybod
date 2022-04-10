@@ -23,9 +23,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 		/// インポート対象のKeyMapファイルのパスを指定してImportWindow クラスの新しいインスタンスを初期化します。
 		/// </summary>
 		/// <param name="fileName">インポート対象となるKeyMapファイルのパス。</param>
-		internal ImportWindow() {
-			InitializeComponent();
-		}
+		internal ImportWindow() => this.InitializeComponent();
 
 		#region プロパティ
 
@@ -94,12 +92,12 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 
 			//親ウィンドウの位置からウィンドウの表示位置を算出
 			if(piarent!=null) {
-				this.Top=piarent.Top+piarent.Height/2-this.Height/2;
-				this.Left=piarent.Left+piarent.Width/2-this.Width/2;
+				this.Top=piarent.Top+((piarent.Height-this.Height)/2);
+				this.Left=piarent.Left+((piarent.Width-this.Width)/2);
 			}
 
 			//インポートプログレスウィンドウを表示
-			this.ShowDialog();
+			_=this.ShowDialog();
 
 			if(this.Exception==null) {
 
@@ -108,14 +106,14 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 
 				App.DefineManager.Load(this.OutputPath);
 
-				MessageBox.Show(piarent,App.Language.ImportKeyMap.Successful,App.Language.ImportKeyMap.Successful,MessageBoxButton.OK,MessageBoxImage.None);
+				_=MessageBox.Show(piarent,App.Language.ImportKeyMap.Successful,App.Language.ImportKeyMap.Successful,MessageBoxButton.OK,MessageBoxImage.None);
 				return;
 			} else if(this.Exception is OldClearCancelException) {
-				MessageBox.Show(this,App.Language.ImportKeyMap.OldClearCancel,App.Language.ImportKeyMap.OldClearCancel,MessageBoxButton.OK,MessageBoxImage.Information);
+				_=MessageBox.Show(this,App.Language.ImportKeyMap.OldClearCancel,App.Language.ImportKeyMap.OldClearCancel,MessageBoxButton.OK,MessageBoxImage.Information);
 			} else if(this.Exception is KeyMapUNZipException) {
-				MessageBox.Show(piarent,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(piarent,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 			} else if(this.Exception is XamlConvertException) {
-				MessageBox.Show(piarent,App.Language.ImportKeyMap.CannotXamlConvert,App.Language.ImportKeyMap.CannotXamlConvert,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(piarent,App.Language.ImportKeyMap.CannotXamlConvert,App.Language.ImportKeyMap.CannotXamlConvert,MessageBoxButton.OK,MessageBoxImage.Error);
 			}
 			throw this.Exception;
 		}
@@ -137,7 +135,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 				Directory.Delete(this.OutputPath,true);
 			}
 
-			Task.Run(() => {
+			_=Task.Run(() => {
 				try {
 
 					//KeyMapファイルを展開
@@ -150,9 +148,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 					this.ConvertSvgToXaml();
 
 					//ウィンドウをクローズ
-					Dispatcher.Invoke(() => {
-						this.Close();
-					});
+					this.Dispatcher.Invoke(() => this.Close());
 
 				} catch(Exception ex) when(ex is KeyMapUNZipException|ex is XamlConvertException) {
 					try {
@@ -160,9 +156,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 					} catch(Exception exe) when(exe is ArgumentException|exe is DirectoryNotFoundException|exe is IOException|exe is PathTooLongException|exe is UnauthorizedAccessException)  {
 					}
 					this.Exception=ex;
-					Dispatcher.Invoke(() => {
-						this.Close();
-					});
+					this.Dispatcher.Invoke(() => this.Close());
 				}
 			});
 		}
@@ -191,7 +185,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 				for(var entryCounter = 0;entryCounter<zipArchive.Entries.Count;entryCounter++) {
 
 					//プログレスバーを更新
-					Dispatcher.Invoke(() => {
+					this.Dispatcher.Invoke(() => {
 						this.StatusLabel.Content=string.Format(CultureInfo.CurrentCulture,message,new object[] { entryCounter });
 						this.StatusProgress.Value=50d*entryCounter/zipArchive.Entries.Count;
 					});
@@ -200,7 +194,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 					var outputPath = Path.Combine(this.OutputPath,zipArchive.Entries[entryCounter].FullName);
 
 					//展開先ディレクトリを作成
-					Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
+					_=Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
 
 					//ファイルを展開
 					zipArchive.Entries[entryCounter].ExtractToFile(outputPath);
@@ -222,9 +216,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 		private void GetSvgList() {
 
 			//プログレスバーを更新
-			Dispatcher.Invoke(() => {
-				this.StatusLabel.Content=App.Language.ImportKeyMap.SvgSearchMessage;
-			});
+			_=this.Dispatcher.Invoke(() => this.StatusLabel.Content=App.Language.ImportKeyMap.SvgSearchMessage);
 
 			//SVGファイルのリストを取得
 			this.SvgFileList=this.GetSvgList(this.OutputPath,new List<string>()).ToArray();
@@ -241,7 +233,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 
 				//サブディレクトリを処理
 				foreach(var dir in Directory.EnumerateDirectories(targetPath)) {
-					this.GetSvgList(dir,list);
+					_=this.GetSvgList(dir,list);
 				}
 
 				//ディレクトリ内にあるSVGファイルを取得
@@ -270,9 +262,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 				for(var listCounter = 0;listCounter<this.SvgFileList.Length;listCounter++) {
 
 					//プログレスバーを更新
-					Dispatcher.Invoke(() => {
+					this.Dispatcher.Invoke(() => {
 						this.StatusLabel.Content=string.Format(CultureInfo.CurrentCulture,message,new object[] { listCounter });
-						this.StatusProgress.Value=50d*listCounter/this.SvgFileList.Length+50;
+						this.StatusProgress.Value=(50d*listCounter/this.SvgFileList.Length)+50;
 					});
 
 					//SVGファイルをロードして変換結果をXAMLファイルに出力

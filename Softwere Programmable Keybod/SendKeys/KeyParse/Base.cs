@@ -61,13 +61,9 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 
 		protected abstract int MakeInputList(char[] chars,int charCounter,ushort keyCode,ParsedTree piarent);
 
-		protected virtual (int loopLength, int nextCharCounter) GetLoopLength(char[] chars,int charCounter) {
-			return (1, charCounter);
-		}
+		protected virtual (int loopLength, int nextCharCounter) GetLoopLength(char[] chars,int charCounter) => (1, charCounter);
 
-		protected void MakeInputList(ushort keyCode,int loopLength,ParsedTree piarent) {
-			ParsedTree.Create(piarent,keyCode,this.KeyPressCode,loopLength);
-		}
+		protected void MakeInputList(ushort keyCode,int loopLength,ParsedTree piarent) => _=ParsedTree.Create(piarent,keyCode,this.KeyPressCode,loopLength);
 
 	}
 }

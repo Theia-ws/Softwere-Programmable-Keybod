@@ -14,13 +14,9 @@
 
 		protected int MakeConbinationKeyInputList(char[] chars,int charCounter,ushort keyCode,int loopLength,ParsedTree piarent) {
 
-
-			if(loopLength>0&&!piarent.IsPressed(keyCode)) {
-				charCounter=MakeBaseKeyInputList(chars,charCounter,ParsedTree.Create(piarent,this.VkOrScanCode,this.KeyPressCode,loopLength));
-			} else {
-				charCounter=MakeBaseKeyInputList(chars,charCounter,piarent);
-			}
+			charCounter=loopLength>0&&!piarent.IsPressed(keyCode) ? MakeBaseKeyInputList(chars,charCounter,ParsedTree.Create(piarent,this.VkOrScanCode,this.KeyPressCode,loopLength)) : MakeBaseKeyInputList(chars,charCounter,piarent);
 			return charCounter;
+
 		}
 
 		//TODO:再起処理のループ化を行う事（これが一番難易度高い）

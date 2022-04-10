@@ -5,14 +5,10 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 
 		protected static EventHandler ParseException {
 			get;
-		} = new EventHandler((Base keyParseInfo, char[] chars, int charCounter) => {
-			throw new ArgumentException("keys 有効なキー入力ではありません。", nameof(chars));
-		});
+		} = new EventHandler((Base keyParseInfo,char[] chars,int charCounter) => throw new ArgumentException("keys 有効なキー入力ではありません。",nameof(chars)));
 		protected static EventHandler GetPreCharKeyCode {
 			get;
-		} = new EventHandler((Base keyParseInfo, char[] chars, int charCounter) => {
-			return chars[charCounter - 1];
-		});
+		} = new EventHandler((Base keyParseInfo,char[] chars,int charCounter) => chars[charCounter-1]);
 
 		public static Base[] ConbinationKeyParseInfoList {
 			get;

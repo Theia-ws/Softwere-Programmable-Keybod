@@ -106,9 +106,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 				token.ThrowIfCancellationRequested();
 
 				//キートップにテキストを設定
-				Dispatcher.Invoke(() => {
-					this.Content=this.KeyTop;
-				});
+				_=this.Dispatcher.Invoke(() => this.Content=this.KeyTop);
 				return;
 			}
 
@@ -123,7 +121,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 				//スレッドキャンセルチェック
 				token.ThrowIfCancellationRequested();
 
-				Dispatcher.Invoke(() => {
+				this.Dispatcher.Invoke(() => {
 
 					//キートップに表示するXAMLを設定
 					this.KeyTopImage=new Frame() {
@@ -142,9 +140,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 				token.ThrowIfCancellationRequested();
 
 				//画像のロードに失敗した場合、キートップにテキストを設定
-				Dispatcher.Invoke(() => {
-					this.Content=this.KeyTop;
-				});
+				_=this.Dispatcher.Invoke(() => this.Content=this.KeyTop);
 
 			}
 
@@ -170,10 +166,8 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 					token.ThrowIfCancellationRequested();
 
 					//キートップに表示するXAMLを設定
-					Dispatcher.Invoke(() => {
-						this.KeyTopHoverImage=new Frame() {
-							Content=xaml
-						};
+					_=this.Dispatcher.Invoke(() => this.KeyTopHoverImage=new Frame() {
+						Content=xaml
 					});
 
 				} catch(XamlLoadException) {
@@ -195,10 +189,8 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 					token.ThrowIfCancellationRequested();
 
 					//キートップに表示するXAMLを設定
-					Dispatcher.Invoke(() => {
-						this.KeyTopActiveImage=new Frame() {
-							Content=xaml
-						};
+					_=this.Dispatcher.Invoke(() => this.KeyTopActiveImage=new Frame() {
+						Content=xaml
 					});
 
 				} catch(XamlLoadException) {
@@ -219,9 +211,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			try {
 				stream=new FileStream(path,FileMode.Open,FileAccess.Read,FileShare.ReadWrite);
 				var xmlReader = XmlReader.Create(stream);
-				Dispatcher.Invoke(() => {
-					xaml=XamlReader.Load(xmlReader) as UIElement;
-				});
+				_=this.Dispatcher.Invoke(() => xaml=XamlReader.Load(xmlReader) as UIElement);
 			} catch(Exception ex) {
 				throw new XamlLoadException(ex.Message,ex);
 			} finally {
@@ -263,7 +253,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 		/// </summary>
 		private void KeyTopChangeNormal() {
 			if(this.KeyTopImage==null) {
-				this.Content=KeyTop;
+				this.Content=this.KeyTop;
 			} else {
 				this.SetKeyTop(this.KeyTopImage);
 			}

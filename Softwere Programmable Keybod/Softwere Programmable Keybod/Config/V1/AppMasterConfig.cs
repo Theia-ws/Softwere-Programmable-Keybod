@@ -22,12 +22,10 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 			}
 		}
 
-		internal static AppMasterConfig Create(string filePath) {
-			return new AppMasterConfig() {
-				ConfigFilePath=filePath,
-				KeyMapSetPath=Path.Combine(new string[] { Environment.CurrentDirectory,"Config","Theias config for Minecraft building" })
-			};
-		}
+		internal static AppMasterConfig Create(string filePath) => new AppMasterConfig() {
+			ConfigFilePath=filePath,
+			KeyMapSetPath=Path.Combine(new string[] { Environment.CurrentDirectory,"Config","Theias config for Minecraft building" })
+		};
 
 		internal void Save() {
 			StreamWriter streamWriter = null;

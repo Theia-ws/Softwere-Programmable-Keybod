@@ -12,9 +12,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 		/// <summary>
 		/// コンストラクタ
 		/// </summary>
-		public Key() {
-			InitializeComponent();
-		}
+		public Key() => this.InitializeComponent();
 
 		/// <summary>
 		/// キーマップ定義を元にキー配列を生成します。

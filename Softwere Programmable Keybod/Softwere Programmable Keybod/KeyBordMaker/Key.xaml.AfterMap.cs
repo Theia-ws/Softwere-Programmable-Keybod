@@ -21,13 +21,7 @@
 		/// キー入力後に遷移するキーマップのインスタンスを設定
 		/// </summary>
 		/// <param name="gridList">キーマップのリスト</param>
-		internal void SetAfterMap(KeyMapList gridList) {
-			if(string.IsNullOrEmpty(this.AfterMapName)||gridList==null) {
-				this.AfterMap=null;
-			} else {
-				this.AfterMap=gridList[this.AfterMapName];
-			}
-		}
+		internal void SetAfterMap(KeyMapList gridList) => this.AfterMap=string.IsNullOrEmpty(this.AfterMapName)||gridList==null ? null : gridList[this.AfterMapName];
 
 		/// <summary>
 		/// キーマップ遷移処理を取得または設定します。

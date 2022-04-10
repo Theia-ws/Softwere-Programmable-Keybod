@@ -97,7 +97,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 				}
 			}
 
-			var path = string.Empty;
+			string path;
 			try {
 				path=Path.Combine(new string[] { Environment.CurrentDirectory,"Config","Theias config for Minecraft building" });
 			} catch(ArgumentException) {
@@ -136,21 +136,21 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 				return;
 			} catch(CheckException ex) {
 				var message = new StringBuilder();
-				message.Append(ex.Message);
+				_=message.Append(ex.Message);
 				foreach(var innnerException in ex.InnnerExceptionList) {
-					message.Append(Environment.NewLine);
-					message.Append(innnerException.Message);
-					message.Append(string.Format(CultureInfo.CurrentCulture,App.Language.KeyMapSetLoder.ErrorMessages.ErrorPoint,new object[] { innnerException.ConfigPath??string.Empty,innnerException.KeyMapName??string.Empty,innnerException.RowNumber==-1 ? string.Empty : innnerException.RowNumber.ToString(CultureInfo.CurrentCulture),innnerException.KeyNumber==-1 ? string.Empty : innnerException.KeyNumber.ToString(CultureInfo.CurrentCulture),innnerException.InputIndex==-1 ? string.Empty : innnerException.InputIndex.ToString(CultureInfo.CurrentCulture),innnerException.Value??string.Empty }));
+					_=message.Append(Environment.NewLine);
+					_=message.Append(innnerException.Message);
+					_=message.Append(string.Format(CultureInfo.CurrentCulture,App.Language.KeyMapSetLoder.ErrorMessages.ErrorPoint,new object[] { innnerException.ConfigPath??string.Empty,innnerException.KeyMapName??string.Empty,innnerException.RowNumber==-1 ? string.Empty : innnerException.RowNumber.ToString(CultureInfo.CurrentCulture),innnerException.KeyNumber==-1 ? string.Empty : innnerException.KeyNumber.ToString(CultureInfo.CurrentCulture),innnerException.InputIndex==-1 ? string.Empty : innnerException.InputIndex.ToString(CultureInfo.CurrentCulture),innnerException.Value??string.Empty }));
 				}
-				MessageBox.Show(this.KeybordWindow,message.ToString(),App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(this.KeybordWindow,message.ToString(),App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 			} catch(ArgumentNullException ex) {
-				MessageBox.Show(this.KeybordWindow,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss+Environment.NewLine+ex.Message,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(this.KeybordWindow,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss+Environment.NewLine+ex.Message,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 			} catch(LoadException) {
-				MessageBox.Show(this.KeybordWindow,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(this.KeybordWindow,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 			} catch(ArgumentException) {
-				MessageBox.Show(this.KeybordWindow,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(this.KeybordWindow,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 			} catch(SaveException ex) {
-				MessageBox.Show(this.KeybordWindow,App.Language.Config.FalidSave+Environment.NewLine+ex.Message,App.Language.Config.FalidSave,MessageBoxButton.OK,MessageBoxImage.Error);
+				_=MessageBox.Show(this.KeybordWindow,App.Language.Config.FalidSave+Environment.NewLine+ex.Message,App.Language.Config.FalidSave,MessageBoxButton.OK,MessageBoxImage.Error);
 			}
 			throw new LoadException();
 
@@ -200,7 +200,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 		/// アンマネージ リソースの解放またはリセットに関連付けられているアプリケーション定義のタスクを実行します。
 		/// </summary>
 		public void Dispose() {
-			Dispose(true);
+			this.Dispose(true);
 			GC.SuppressFinalize(this);
 		}
 
@@ -218,7 +218,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 		/// デストラクタ
 		/// </summary>
 		~DefineManager() {
-			Dispose(false);
+			this.Dispose(false);
 		}
 
 	}

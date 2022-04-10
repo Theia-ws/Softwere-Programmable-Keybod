@@ -40,9 +40,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 		/// </summary>
 		/// <param name="message">例外の原因を説明するエラー メッセージ。</param>
 		/// <param name="innnerExceptionList">現在の例外の原因である例外リスト。内部例外が指定されていない場合は null 参照 (Visual Basic では、Nothing)。</param>
-		internal CheckException(string message,CheckExceptionCollection innnerExceptionList) : base(message) {
-			this.InnnerExceptionList=innnerExceptionList;
-		}
+		internal CheckException(string message,CheckExceptionCollection innnerExceptionList) : base(message) => this.InnnerExceptionList=innnerExceptionList;
 
 		/// <summary>
 		/// シリアル化したデータを使用して、CheckException クラスの新しいインスタンスを初期化します。
@@ -128,12 +126,12 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 
 			//シリアライズ
 			base.GetObjectData(info,context);
-			info.AddValue(nameof(ConfigPath),ConfigPath);
-			info.AddValue(nameof(KeyMapName),KeyMapName);
-			info.AddValue(nameof(RowNumber),RowNumber);
-			info.AddValue(nameof(KeyNumber),KeyNumber);
-			info.AddValue(nameof(InputIndex),InputIndex);
-			info.AddValue(nameof(Value),Value);
+			info.AddValue(nameof(this.ConfigPath),this.ConfigPath);
+			info.AddValue(nameof(this.KeyMapName),this.KeyMapName);
+			info.AddValue(nameof(this.RowNumber),this.RowNumber);
+			info.AddValue(nameof(this.KeyNumber),this.KeyNumber);
+			info.AddValue(nameof(this.InputIndex),this.InputIndex);
+			info.AddValue(nameof(this.Value),this.Value);
 
 		}
 
