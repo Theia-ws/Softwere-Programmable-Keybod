@@ -45,19 +45,19 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 					} else {
 						keyCode=target.Match?.Invoke(target,chars,charCounter)??target.VkOrScanCode;
 					}
+
 					charCounter++;
 					if(target.NextCheck==null) {
 						return target.MakeInputList(chars,charCounter,keyCode,piarent);
 					}
+
 					targetList=target.NextCheck;
 					break;
 				}
 			}
+
 			throw new ArgumentException("keys 有効なキー入力ではありません。",nameof(chars));
 		}
-
-
-
 
 		protected abstract int MakeInputList(char[] chars,int charCounter,ushort keyCode,ParsedTree piarent);
 

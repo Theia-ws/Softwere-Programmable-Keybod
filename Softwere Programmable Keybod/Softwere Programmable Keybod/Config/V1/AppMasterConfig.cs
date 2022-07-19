@@ -55,7 +55,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 			get;
 			set;
 		}
-
 	}
-
 }

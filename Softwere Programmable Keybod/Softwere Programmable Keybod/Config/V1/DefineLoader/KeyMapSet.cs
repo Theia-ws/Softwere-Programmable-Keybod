@@ -196,17 +196,19 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 						if(this.KeyMap.Find((KeyMap keyMap) => keyMap.Name==baseKeyMap.Name)!=null) {
 							continue;
 						}
+
 						var targetKeyMap = new KeyMap();
 						appendingKeyMapCollection.Add(targetKeyMap);
 						targetKeyMap.BaseKeyMapLoad(baseKeyMapSet.KeyMap,baseKeyMap,DefineLoader.KeyMap.ExtendsLevelEnum.InnerKeyMapSet);
 					}
+
 					foreach(var appendingKeyMap in appendingKeyMapCollection) {
 						this.KeyMap.Add(appendingKeyMap);
 					}
+
 					status = true;
 					break;
 				}
-
 			}
 
 			if(!status&&this.Extends.Count>0) {
@@ -267,6 +269,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 				if(keyMap.Default>0) {
 					defaultCounter++;
 				}
+
 				foreach(var extendsValue in keyMap.Extends) {
 
 					//キーマップデータの継承元となるキーマップデータの存在チェック
@@ -275,9 +278,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 							Value=extendsValue
 						});
 					}
-
 				}
 			}
+
 			if(defaultCounter<1) {
 				ErrorMessage.Add(new CheckException(App.Language.KeyMapSetLoder.ErrorMessages.KeyMapSet.KeyMapCheck.DefaultMap.Zero) {
 					Value=defaultCounter.ToString(CultureInfo.CurrentCulture)
@@ -293,7 +296,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 				ErrorMessage.AddRange(keyMap.Check(this.KeyMap));
 			}
 
-
 			if(ErrorMessage.Count>0) {
 
 				//エラーへの追加情報の設定
@@ -304,7 +306,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 				//チェック例外をスロー
 				throw new CheckException(App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,new CheckExceptionCollection(ErrorMessage));
 			}
-
 		}
 
 		#endregion
@@ -346,6 +347,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 						this.WindowHeight=keyMap.Height;
 					}
 				}
+
 				this.WindowHeight*=110;
 				this.WindowHeight+=10;
 			}
@@ -357,10 +359,10 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 						this.WindowWidth=keyMap.Width;
 					}
 				}
+
 				this.WindowWidth*=110;
 				this.WindowWidth+=10;
 			}
-
 		}
 
 		#endregion

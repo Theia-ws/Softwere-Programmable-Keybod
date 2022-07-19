@@ -50,6 +50,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 			} catch(SaveException ex) {
 				_=MessageBox.Show(Language.Config.FalidSave+Environment.NewLine+ex.Message,Language.Config.FalidSave,MessageBoxButtons.OK,MessageBoxIcon.Error,MessageBoxDefaultButton.Button1,MessageBoxOptions.DefaultDesktopOnly|(CultureInfo.CurrentCulture.TextInfo.IsRightToLeft ? MessageBoxOptions.RtlReading : 0));
 			}
+
 			return config;
 		}
 
@@ -73,7 +74,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		internal static NotifyIcon NotifyIcon {
 			get;
 		} = new NotifyIcon();
-
-
 	}
 }

@@ -18,6 +18,5 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 			return !state||chars[charCounter]!='}' ? throw new ArgumentException("keys 有効なキー入力ではありません。",nameof(chars)) : (loopLength, ++charCounter);
 
 		}
-
 	}
 }

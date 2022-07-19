@@ -143,7 +143,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 				_=this.Dispatcher.Invoke(() => this.Content=this.KeyTop);
 
 			}
-
 		}
 
 		/// <summary>
@@ -197,7 +196,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 					this.KeyTopActiveImage=null;
 				}
 			}
-
 		}
 
 		/// <summary>
@@ -217,6 +215,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			} finally {
 				stream?.Dispose();
 			}
+
 			return xaml;
 		}
 
@@ -233,6 +232,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			} else {
 				this.SetKeyTop(this.KeyTopActiveImage);
 			}
+
 			this.Foreground=new SolidColorBrush(Color.FromArgb(0xFF,0xFF,0xFF,0xFF));
 		}
 
@@ -245,6 +245,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			} else {
 				this.SetKeyTop(this.KeyTopHoverImage);
 			}
+
 			this.Foreground=new SolidColorBrush(Color.FromArgb(0xFF,0x00,0x00,0x00));
 		}
 
@@ -257,6 +258,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			} else {
 				this.SetKeyTop(this.KeyTopImage);
 			}
+
 			this.Foreground=new SolidColorBrush(Color.FromArgb(0xFF,0xFF,0xFF,0xFF));
 		}
 
@@ -268,6 +270,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			if(this.KeyTopViewBox.Child!=image) {
 				this.KeyTopViewBox.Child=image;
 			}
+
 			if(this.Content!=this.KeyTopViewBox){
 				this.Content=this.KeyTopViewBox;
 			}
@@ -276,5 +279,4 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 		#endregion
 
 	}
-
 }

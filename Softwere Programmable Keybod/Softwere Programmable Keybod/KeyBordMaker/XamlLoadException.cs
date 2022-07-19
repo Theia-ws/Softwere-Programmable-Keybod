@@ -37,6 +37,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 		/// <param name="context">転送元または転送先についてのコンテキスト情報を含む StreamingContext です。</param>
 		protected XamlLoadException(SerializationInfo info,StreamingContext context) : base(info,context) {
 		}
-
 	}
 }

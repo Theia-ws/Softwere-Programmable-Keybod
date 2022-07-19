@@ -204,9 +204,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			if(this.AfterMap!=null) {
 				this.KeyMapChangeProcess?.Invoke(this.AfterMap);
 			}
-
 		}
-
 	}
-
 }

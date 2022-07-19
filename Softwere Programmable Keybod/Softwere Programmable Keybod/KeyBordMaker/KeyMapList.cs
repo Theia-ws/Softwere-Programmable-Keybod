@@ -198,7 +198,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 				foreach(var keyMap in this) {
 					keyMap.Value.LoadKeyTopAdvancedImage(this.KeyTopUpdateTokenSource.Token);
 				}
-
 			} catch(OperationCanceledException) { 
 			} finally {
 

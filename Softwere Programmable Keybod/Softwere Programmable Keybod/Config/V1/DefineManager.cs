@@ -70,14 +70,15 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 						if(!File.Exists(Path.Combine(subDir,"KeyMap.xml"))) {
 							continue;
 						}
+
 						result.Add(subDir,new DirectoryInfo(subDir).Name);
 					}
 				}
+
 				this.FileList=new ReadOnlyDictionary<string,string>(result);
 			} catch(Exception) {
 				throw new LoadException();
-			}
-			
+			}	
 		}
 
 		/// <summary>
@@ -103,6 +104,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 			} catch(ArgumentException) {
 				throw new LoadException();
 			}
+
 			this.Load(path,false);
 
 		}
@@ -142,6 +144,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 					_=message.Append(innnerException.Message);
 					_=message.Append(string.Format(CultureInfo.CurrentCulture,App.Language.KeyMapSetLoder.ErrorMessages.ErrorPoint,new object[] { innnerException.ConfigPath??string.Empty,innnerException.KeyMapName??string.Empty,innnerException.RowNumber==-1 ? string.Empty : innnerException.RowNumber.ToString(CultureInfo.CurrentCulture),innnerException.KeyNumber==-1 ? string.Empty : innnerException.KeyNumber.ToString(CultureInfo.CurrentCulture),innnerException.InputIndex==-1 ? string.Empty : innnerException.InputIndex.ToString(CultureInfo.CurrentCulture),innnerException.Value??string.Empty }));
 				}
+
 				_=MessageBox.Show(this.KeybordWindow,message.ToString(),App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 			} catch(ArgumentNullException ex) {
 				_=MessageBox.Show(this.KeybordWindow,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss+Environment.NewLine+ex.Message,App.Language.KeyMapSetLoder.ErrorMessages.LoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
@@ -152,6 +155,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 			} catch(SaveException ex) {
 				_=MessageBox.Show(this.KeybordWindow,App.Language.Config.FalidSave+Environment.NewLine+ex.Message,App.Language.Config.FalidSave,MessageBoxButton.OK,MessageBoxImage.Error);
 			}
+
 			throw new LoadException();
 
 		}
@@ -192,7 +196,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 			//曲全にロードしたKeyMap定義のKeyMapを削除
 			this.KeyMapList?.RemoveKeyMap();
 
-
 			this.KeyMapList=newKeyMapList;
 		}
 
@@ -220,6 +223,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1 {
 		~DefineManager() {
 			this.Dispose(false);
 		}
-
 	}
 }

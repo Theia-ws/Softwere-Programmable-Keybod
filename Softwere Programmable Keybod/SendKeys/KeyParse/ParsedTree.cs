@@ -28,13 +28,16 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 			if(!flags.IsUnicode()) {
 				return new ParsedTree(piarent,new INPUT(keyCode,0,flags|KeyboardFlag.KeyDown,0,IntPtr.Zero),new INPUT(keyCode,0,flags|KeyboardFlag.KeyUp,0,IntPtr.Zero),loopLength);
 			}
+
 			var vk = NativeMethods.VkKeyScan((char)keyCode);
 			if(vk==-1) {
 				if((keyCode&0xFF00)==0xE000) {
 					flags=KeyboardFlag.ExtendedKey|flags;
 				}
+
 				return new ParsedTree(piarent,new INPUT(0,keyCode,flags|KeyboardFlag.KeyDown,0,IntPtr.Zero),new INPUT(0,keyCode,flags|KeyboardFlag.KeyUp,0,IntPtr.Zero),loopLength);
 			}
+
 			var baseVk = (ushort)(vk&0x00ff);
 			flags^=KeyboardFlag.Unicode;
 			return new ParsedTree(piarent,new INPUT(baseVk,0,flags|KeyboardFlag.KeyDown,0,IntPtr.Zero),new INPUT(baseVk,0,flags|KeyboardFlag.KeyUp,0,IntPtr.Zero),loopLength).ICKAdd(vk,SHIFTKEYSCAN,VK.VK_SHIFT).ICKAdd(vk,CTRLKEYSCAN,VK.VK_CONTROL).ICKAdd(vk,ALTKEYSCAN,VK.VK_MENU);
@@ -45,6 +48,7 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 				this.ICKPre.Add(new INPUT((ushort)addingVk,0,KeyboardFlag.KeyDown,0,IntPtr.Zero));
 				this.ICKAfter.Insert(0,new INPUT((ushort)addingVk,0,KeyboardFlag.KeyUp,0,IntPtr.Zero));
 			}
+
 			return this;
 		}
 
@@ -80,16 +84,18 @@ namespace WS.Theia.Library.SendKeys.KeyParse {
 					if(target.KeyDown.Data.Keyboard.Vk==compareValue) {
 						return true;
 					}
+
 					foreach(var ick in target.ICKPre) {
 						if(ick.Data.Keyboard.Vk==compareValue) {
 							return true;
 						}
 					}
 				}
+
 				target=target.Piarent;
 			}
+
 			return false;
 		}
-
 	}
 }

@@ -109,11 +109,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			if(this.Index==-1) {
 				this.Index=0;
 			}
-
 		}
 
 		#endregion
 
 	}
-
 }

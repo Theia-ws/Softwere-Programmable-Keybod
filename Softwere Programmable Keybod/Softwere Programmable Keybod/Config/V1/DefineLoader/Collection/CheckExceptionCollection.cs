@@ -14,7 +14,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader.Collec
 		/// <param name="list">新しいリストにコピーされる要素のコレクション。 </param>
 		internal CheckExceptionCollection(IList<CheckException> list) : base(list) {
 		}
-
 	}
-
 }

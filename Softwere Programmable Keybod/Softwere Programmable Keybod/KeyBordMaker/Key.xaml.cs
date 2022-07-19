@@ -65,12 +65,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 					keyMap.Add(key);
 
 				}
-
 			}
 
 			return new ReadOnlyCollection<Key>(keyMap);
 		}
-
 	}
-
 }

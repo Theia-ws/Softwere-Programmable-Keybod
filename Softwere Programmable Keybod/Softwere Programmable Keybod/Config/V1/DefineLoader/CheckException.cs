@@ -134,7 +134,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			info.AddValue(nameof(this.Value),this.Value);
 
 		}
-
 	}
-
 }

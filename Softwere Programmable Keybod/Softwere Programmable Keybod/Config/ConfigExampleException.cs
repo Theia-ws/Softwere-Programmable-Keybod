@@ -36,6 +36,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config {
 		/// <param name="context">転送元または転送先についてのコンテキスト情報を含む StreamingContext です。</param>
 		protected ConfigExampleException(SerializationInfo info,StreamingContext context) : base(info,context) {
 		}
-
 	}
 }

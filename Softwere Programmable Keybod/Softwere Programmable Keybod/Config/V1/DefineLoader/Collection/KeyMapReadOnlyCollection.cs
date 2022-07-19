@@ -23,10 +23,12 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader.Collec
 				if(size.Width<singleKeyMapSize.Width) {
 					size.Width=singleKeyMapSize.Width;
 				}
+
 				if(size.Height<singleKeyMapSize.Height) {
 					size.Height=singleKeyMapSize.Height;
 				}
 			}
+
 			this.MapSize=size;
 
 		}
@@ -49,6 +51,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader.Collec
 					return keyMap;
 				}
 			}
+
 			return null;
 
 		}
@@ -59,7 +62,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader.Collec
 		internal Size MapSize {
 			get;
 		}
-
 	}
-
 }

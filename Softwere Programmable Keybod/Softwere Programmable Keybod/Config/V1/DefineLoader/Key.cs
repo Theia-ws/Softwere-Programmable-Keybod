@@ -146,7 +146,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 					});
 				}
 			}
-
 		}
 
 		#endregion
@@ -177,6 +176,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 						break;
 					}
 				}
+
 				if(!status) {
 					ErrorMessage.Add(new CheckException(App.Language.KeyMapSetLoder.ErrorMessages.Key.NoAflterMap) {
 						Value=this.AfterMap
@@ -245,11 +245,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 				if(!string.IsNullOrEmpty(this.KeyTopImage)&&!Path.IsPathRooted(this.KeyTopImage)) {
 					this.KeyTopImage=Path.Combine(configRootPath,this.KeyTopImage);
 				}
-
 			} catch(Exception) {
 				throw new LoadException();
 			}
-
 		}
 
 		/// <summary>
@@ -271,11 +269,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			foreach(var inputData in this.InputData) {
 				inputData.AutoComplete();
 			}
-
 		}
 
 		#endregion
 
 	}
-
 }

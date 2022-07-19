@@ -35,7 +35,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 			set;
 		}
 
-
 		/// <summary>
 		/// KeyMapファイルのパスを取得または設定します。
 		/// </summary>
@@ -79,6 +78,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 				this.FileName=dialog.FileName;
 				piarent.Topmost=true;
 			}
+
 			if(result!=System.Windows.Forms.DialogResult.OK) {
 				throw new KeyMapUNZipException();
 			}
@@ -115,6 +115,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 			} else if(this.Exception is XamlConvertException) {
 				_=MessageBox.Show(piarent,App.Language.ImportKeyMap.CannotXamlConvert,App.Language.ImportKeyMap.CannotXamlConvert,MessageBoxButton.OK,MessageBoxImage.Error);
 			}
+
 			throw this.Exception;
 		}
 
@@ -132,6 +133,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 					this.Exception=new OldClearCancelException();
 					this.Close();
 				}
+
 				Directory.Delete(this.OutputPath,true);
 			}
 
@@ -155,6 +157,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 						Directory.Delete(this.OutputPath,true);
 					} catch(Exception exe) when(exe is ArgumentException|exe is DirectoryNotFoundException|exe is IOException|exe is PathTooLongException|exe is UnauthorizedAccessException)  {
 					}
+
 					this.Exception=ex;
 					this.Dispatcher.Invoke(() => this.Close());
 				}
@@ -200,14 +203,12 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 					zipArchive.Entries[entryCounter].ExtractToFile(outputPath);
 
 				}
-
 			} catch(Exception ex) {
 				throw new KeyMapUNZipException(App.Language.ImportKeyMap.CannotOpenZipFile,ex);
 			} finally {
 				zipArchive?.Dispose();
 				fs?.Dispose();
 			}
-
 		}
 
 		/// <summary>
@@ -276,9 +277,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineImport {
 						myXslTransform.Transform(xmlReader,null,writer);
 						writer.Flush();
 					}
-
 				}
-
 			} catch(Exception ex) {
 				throw new XamlConvertException(ex.Message,ex);
 			}

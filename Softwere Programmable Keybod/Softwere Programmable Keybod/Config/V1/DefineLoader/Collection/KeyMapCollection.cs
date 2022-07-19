@@ -26,10 +26,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader.Collec
 					return keyMap;
 				}
 			}
+
 			return null;
 
 		}
-
 	}
-
 }

@@ -17,6 +17,8 @@ namespace WS.Theia.Library.SendKeys {
 
 			if(text==null) {
 				throw new ArgumentNullException(nameof(text));
+			} else if(string.IsNullOrEmpty(text)) {
+				return;
 			}
 
 			var textLength = text.Length;
@@ -66,7 +68,6 @@ namespace WS.Theia.Library.SendKeys {
 				} else {
 					Convert(addInput,inputList);
 				}
-
 			}
 		}
 
@@ -74,6 +75,7 @@ namespace WS.Theia.Library.SendKeys {
 			foreach(var ickPre in addInput.ICKPre) {
 				ListUpdateCheck(inputList).Add(ickPre);
 			}
+
 			ListUpdateCheck(inputList).Add(addInput.KeyDown);
 		}
 		private static void GetUp(ParsedTree addInput,List<List<INPUT>> inputList) {
@@ -89,9 +91,8 @@ namespace WS.Theia.Library.SendKeys {
 				addTargetList=new List<INPUT>();
 				inputList.Add(addTargetList);
 			}
+
 			return addTargetList;
 		}
-
 	}
-
 }

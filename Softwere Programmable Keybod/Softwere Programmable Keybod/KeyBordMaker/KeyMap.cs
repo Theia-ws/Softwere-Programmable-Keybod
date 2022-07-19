@@ -35,6 +35,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			for(var keyCounter = 0;keyCounter<keyMap.Width;keyCounter++) {
 				this.ColumnDefinitions.Add(new ColumnDefinition() { Width=new GridLength(1,GridUnitType.Star) });
 			}
+
 			for(var rowCounter = 0;rowCounter<keyMap.Height;rowCounter++) {
 				this.RowDefinitions.Add(new RowDefinition() { Height=new GridLength(1,GridUnitType.Star) });
 			}
@@ -46,7 +47,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 			foreach(var Key in this.Keys) {
 				_=this.Children.Add(Key);
 			}
-
 		}
 
 		/// <summary>
@@ -68,7 +68,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.KeyBordMaker {
 				key.LoadKeyTopAdvancedImage(token);
 			}
 		}
-
 	}
-
 }

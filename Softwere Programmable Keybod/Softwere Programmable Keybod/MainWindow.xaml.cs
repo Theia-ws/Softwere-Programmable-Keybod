@@ -44,7 +44,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 			} catch(LoadException) {
 				this.Close();
 			}
-
 		}
 
 		/// <summary>

@@ -22,8 +22,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		private ToolStripMenuItem[] keyMapMenuItemList = null;
 		private readonly ToolStripMenuItem exitItem = new ToolStripMenuItem();
 
-
-
 		internal NotifyIcon() {
 
 			_=this.menuStrip.Items.Add(this.MakeConfigExample());
@@ -87,9 +85,11 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 					keyMapMenuItem.Dispose();
 				}
 			}
+
 			if(App.DefineManager.FileList==null) {
 				App.DefineManager.Update();
 			}
+
 			this.keyMapMenuItemList=new ToolStripMenuItem[App.DefineManager.FileList.Count];
 			var keyMapFileListCounter = 0;
 			foreach(var keyMap in App.DefineManager.FileList) {
@@ -101,6 +101,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 				if(App.Config.KeyMapSetPath==this.keyMapMenuItemList[keyMapFileListCounter].Name) {
 					this.keyMapMenuItemList[keyMapFileListCounter].CheckState=CheckState.Indeterminate;
 				}
+
 				keyMapFileListCounter++;
 			}
 
@@ -114,15 +115,16 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 			if(senderItem.CheckState==CheckState.Indeterminate) {
 				return;
 			}
+
 			foreach(var item in senderItem.GetCurrentParent().Items) {
 				((ToolStripMenuItem)item).CheckState=CheckState.Unchecked;
 			}
+
 			senderItem.CheckState=CheckState.Indeterminate;
 			try {
 				App.DefineManager.Load(senderItem.Name);
 			} catch(LoadException) {
 			}
-
 		}
 
 		private ToolStripMenuItem MakeExit() {
@@ -139,7 +141,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 			notifyIcon.Visible=false;
 
 			this.MainWindow?.Close();
-
 
 		}
 
@@ -158,6 +159,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 						keyMapMenuItem.Dispose();
 					}
 				}
+
 				this.exitItem.Dispose();
 				this.menuStrip.Dispose();
 				this.notifyIcon.Dispose();
@@ -167,7 +169,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod {
 		~NotifyIcon() {
 			this.Dispose(false);
 		}
-
-
 	}
 }

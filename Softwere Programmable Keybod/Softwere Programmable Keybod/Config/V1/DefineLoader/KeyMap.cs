@@ -84,12 +84,14 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			if(this.Width!=-1) {
 				return this.Width;
 			}
+
 			var width = 0;
 			foreach(var row in this.Row) {
 				if(width<row.Key.Count) {
 					width=row.Key.Count;
 				}
 			}
+
 			return width;
 		}
 
@@ -147,7 +149,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 				this.BaseKeyMapLoadCopyData(baseKeyMapColection,baseKeyMap,processExtendsLevel);
 
 			}
-
 		}
 
 		/// <summary>
@@ -212,6 +213,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 					this.Row[rowCounter].BaseKeyMapLoad(baseKeyMap.Row[rowCounter]);
 				}
 			}
+
 			this.ExtendsLevel=processExtendsLevel;
 		}
 
@@ -246,6 +248,7 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 						}
 					}
 				}
+
 				if(!status) {
 					ErrorMessage.Add(new CheckException(App.Language.KeyMapSetLoder.ErrorMessages.KeyMap.NoExtendsMap) {
 						Value=extends
@@ -294,7 +297,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			foreach(var row in this.Row) {
 				row.PreCheckAutoComplete(configRootPath);
 			}
-
 		}
 
 		/// <summary>
@@ -322,7 +324,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			foreach(var row in this.Row) {
 				row.AutoComplete();
 			}
-
 		}
 
 		#endregion

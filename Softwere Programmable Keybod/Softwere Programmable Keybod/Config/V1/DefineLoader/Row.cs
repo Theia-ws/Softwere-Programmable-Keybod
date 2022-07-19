@@ -46,7 +46,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 					this.Key[keyCounter].BaseKeyMapLoad(baseRow.Key[keyCounter]);
 				}
 			}
-
 		}
 
 		#endregion
@@ -90,7 +89,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			foreach(var key in this.Key) {
 				key.PreCheckAutoComplete(configRootPath);
 			}
-
 		}
 
 		/// <summary>
@@ -102,11 +100,9 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader {
 			foreach(var key in this.Key) {
 				key.AutoComplete();
 			}
-
 		}
 
 		#endregion
 
 	}
-
 }

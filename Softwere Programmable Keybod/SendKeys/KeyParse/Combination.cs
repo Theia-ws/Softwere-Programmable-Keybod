@@ -8,6 +8,7 @@
 			if(chars.Length>charCounter) {
 				return this.MakeConbinationKeyInputList(chars,charCounter,keyCode,loopLength,piarent);
 			}
+
 			this.MakeInputList(keyCode,loopLength,piarent);
 			return charCounter;
 		}
@@ -27,12 +28,13 @@
 				while(chars[charCounter]!=')') {
 					charCounter=Parse(chars,charCounter,piarent);
 				}
+
 				charCounter++;
 			} else {
 				charCounter=Parse(chars,charCounter,piarent);
 			}
+
 			return charCounter;
 		}
-
 	}
 }

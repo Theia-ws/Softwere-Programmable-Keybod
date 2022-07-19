@@ -7,5 +7,4 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config.V1.DefineLoader.Collec
 	/// </summary>
 	public class ExtendsCollection:Collection<string> {
 	}
-
 }

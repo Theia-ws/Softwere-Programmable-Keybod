@@ -5,6 +5,7 @@
 			if(autoCompleteBase==null) {
 				return;
 			}
+
 			foreach(var member in autoCompleteBase.GetType().GetProperties()) {
 				if(member.PropertyType==typeof(string)) {
 					if(string.IsNullOrEmpty(member.GetValue(this)?.ToString())) {
@@ -15,7 +16,5 @@
 				}
 			}
 		}
-
 	}
-
 }

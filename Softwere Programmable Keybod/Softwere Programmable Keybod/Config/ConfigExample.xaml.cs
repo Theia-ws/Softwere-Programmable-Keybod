@@ -28,7 +28,6 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config {
 				_=MessageBox.Show(this,App.Language.ConfigExampleLoadMiss,App.Language.ConfigExampleLoadMiss,MessageBoxButton.OK,MessageBoxImage.Error);
 				this.Close();
 			}
-
 		}
 
 		/// <summary>
@@ -50,6 +49,5 @@ namespace WS.Theia.Tool.SoftwereProgrammableKeybod.Config {
 				fs?.Dispose();
 			}
 		}
-
 	}
 }

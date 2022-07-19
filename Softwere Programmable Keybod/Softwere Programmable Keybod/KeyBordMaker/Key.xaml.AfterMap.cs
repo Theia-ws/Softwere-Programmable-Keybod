@@ -30,7 +30,6 @@
 			get;
 			set;
 		}
-
 	}
 
 	/// <summary>
